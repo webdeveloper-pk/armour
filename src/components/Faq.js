@@ -9,10 +9,10 @@ const { Panel } = Collapse;
 const Faq = () => {
   return (
     <section className="w-full relative">
-      <div className="absolute top-[20%]">
-        <img src={bg} alt="hero-bg" />
+      <div className="faq-bg-postion">
+        <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="px-6 md:px-16 pb-12 xl:pb-16 homepage-container mx-auto">
+      <div className="px-6 md:px-12 lg:px-16 pb-12 xl:pb-16 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
           <div className="section-title-count text-lg">06</div>
           <div className="text-2xl font-semibold sections-title-color ">

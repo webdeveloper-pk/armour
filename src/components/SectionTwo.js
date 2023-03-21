@@ -14,13 +14,13 @@ import marketplace from "../../src/assets/images/section2-marketplace.png";
 const SectionTwo = () => {
   return (
     <section className="w-full relative">
-      <div className="absolute top-[30%]">
-        <img src={bg} alt="hero-bg" />
+      <div className="section2-bg-postion">
+        <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="absolute top-[35%]">
-        <img src={bg2} alt="hero-bg" />
+      <div className="section2-bg-postion">
+        <img src={bg2} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="px-6 md:px-16 py-12 xl:py-16 homepage-container mx-auto">
+      <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
           <div className="section-title-count text-lg">02</div>
           <div className="text-2xl font-semibold">
@@ -31,7 +31,7 @@ const SectionTwo = () => {
           </div>
           <div></div>
         </div>
-        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 px-2 md:px-12 xl:px-32">
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 px-2 md:px-12 xl:px-32">
           <div>
             <Section2Card
               src={community}

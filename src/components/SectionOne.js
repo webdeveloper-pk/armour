@@ -14,13 +14,13 @@ import software from "../../src/assets/images/section1-software.png";
 const SectionOne = () => {
   return (
     <section className="w-full relative">
-      <div className="absolute top-[40%]">
-        <img src={bg} alt="hero-bg" />
+      <div className="section1-bg-postion">
+        <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="absolute top-[45%]">
-        <img src={bg2} alt="hero-bg" />
+      <div className="section1-bg-postion">
+        <img src={bg2} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="px-6 md:px-16 py-12 xl:py-16 homepage-container mx-auto">
+      <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
           <div className="section-title-count text-lg">01</div>
           <div className="text-2xl font-semibold">

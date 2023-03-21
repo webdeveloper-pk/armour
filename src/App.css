@@ -8,12 +8,6 @@
   scroll-behavior: smooth;
 }
 
-.body-container {
-  max-width: 1920px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .homepage-container {
   max-width: 1920px;
   width: 100%;
@@ -54,6 +48,7 @@ p {
   background: -webkit-linear-gradient(#36d1dc 100%, #5b86e5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-description {
@@ -62,12 +57,25 @@ p {
   font-weight: 400;
 }
 
-/* section */
+.hero-bg-postion {
+  position: absolute;
+  top: 15%;
+}
+
+@media screen and (max-width: 3060px) and (min-width: 2141px) {
+  .hero-bg-postion {
+    position: absolute;
+    top: 5%;
+  }
+}
+
+/* sections */
 
 .sections-title-color {
   background: -webkit-linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* section 01 */
@@ -88,6 +96,25 @@ p {
   background: rgba(14, 19, 20, 0.2);
 }
 
+.section1-bg-postion {
+  position: absolute;
+  top: 40%;
+}
+
+@media screen and (max-width: 2400px) and (min-width: 1900px) {
+  .section1-bg-postion {
+    position: absolute;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 3060px) and (min-width: 2401px) {
+  .section1-bg-postion {
+    position: absolute;
+    top: 20%;
+  }
+}
+
 /* section 02 */
 
 .section2-card {
@@ -99,6 +126,67 @@ p {
   );
   border-radius: 15px;
   border: 1px solid #5b86e5;
+}
+
+.section2-bg-postion {
+  position: absolute;
+  top: 30%;
+}
+
+@media screen and (max-width: 2400px) and (min-width: 1900px) {
+  .section2-bg-postion {
+    position: absolute;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 3060px) and (min-width: 2401px) {
+  .section2-bg-postion {
+    position: absolute;
+    top: 10%;
+  }
+}
+
+/* nft section */
+
+.nft-bg-postion {
+  position: absolute;
+  top: 15%;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2100px) {
+  .nft-bg-postion {
+    position: absolute;
+    top: 10%;
+  }
+}
+
+/* stake section */
+
+.stake-bg-postion {
+  position: absolute;
+  top: 15%;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2100px) {
+  .stake-bg-postion {
+    position: absolute;
+    top: 10%;
+  }
+}
+
+/* low fee section */
+
+.fee-bg-postion {
+  position: absolute;
+  top: 15%;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2100px) {
+  .fee-bg-postion {
+    position: absolute;
+    top: 10%;
+  }
 }
 
 /* section 3 */
@@ -129,7 +217,66 @@ p {
     rgba(91, 134, 229, 0.22) 92.07%
   );
 }
-/* supporters */
+
+.phase-custom-position {
+  margin-left: -42px;
+}
+
+@media screen and (max-width: 766px) and (min-width: 0px) {
+  .phase-custom-position {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 767px) {
+  .phase-custom-position {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .phase-custom-position {
+    margin-left: -37px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .phase-custom-position {
+    margin-left: -42px;
+  }
+}
+
+@media screen and (max-width: 1640px) and (min-width: 1441px) {
+  .phase-custom-position {
+    margin-left: -45px;
+  }
+}
+
+@media screen and (max-width: 1740px) and (min-width: 1641px) {
+  .phase-custom-position {
+    margin-left: -47px;
+  }
+}
+
+@media screen and (max-width: 1840px) and (min-width: 1741px) {
+  .phase-custom-position {
+    margin-left: -49px;
+  }
+}
+
+@media screen and (max-width: 2040px) and (min-width: 1841px) {
+  .phase-custom-position {
+    margin-left: -53px;
+  }
+}
+
+@media screen and (max-width: 3040px) and (min-width: 2041px) {
+  .phase-custom-position {
+    margin-left: -55px;
+  }
+}
+
+/* section 4 */
 
 .supporters-bg {
   background: linear-gradient(
@@ -137,6 +284,68 @@ p {
     rgba(54, 209, 220, 0.11) 0.1%,
     rgba(91, 134, 229, 0.11) 92.46%
   );
+}
+
+.progressbar-position {
+  position: absolute;
+  left: 27%;
+  top: 40%;
+}
+
+@media screen and (max-width: 375px) and (min-width: 321px) {
+  .progressbar-position {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+  .progressbar-position {
+    position: absolute;
+    left: 34%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .progressbar-position {
+    position: absolute;
+    left: 34%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .progressbar-position {
+    position: absolute;
+    left: 22%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .progressbar-position {
+    position: absolute;
+    left: 22%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1640px) and (min-width: 1441px) {
+  .progressbar-position {
+    position: absolute;
+    left: 24%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 2040px) and (min-width: 1641px) {
+  .progressbar-position {
+    position: absolute;
+    left: 25%;
+    top: 42%;
+  }
 }
 
 /* section 5 */
@@ -176,6 +385,18 @@ p {
 }
 
 /* faq */
+
+.faq-bg-postion {
+  position: absolute;
+  top: 20%;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2200px) {
+  .faq-bg-postion {
+    position: absolute;
+    top: 15%;
+  }
+}
 
 .ant-collapse > .ant-collapse-item:last-child,
 .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
+import React from "react";
 import Hero from "../components/Hero";
 import NavbarHomepage from "../components/common/NavbarHomepage";
 import SectionOne from "../components/SectionOne";
@@ -13,12 +12,6 @@ import Faq from "../components/Faq";
 import Roadmap from "../components/Roadmap";
 
 const Homepage = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
-
   return (
     <>
       <div className="overflow-body bg-blue min-h-screen">

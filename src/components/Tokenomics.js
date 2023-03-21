@@ -5,7 +5,7 @@ import progressbar from "../../src/assets/images/section5-progressbar.png";
 const Tokenomics = () => {
   return (
     <section className="w-full xl:mt-8">
-      <div className="px-6 md:px-16 pt-12 xl:pt-16 pb-16 xl:pb-24 homepage-container mx-auto">
+      <div className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 pb-12 xl:pb-24 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
           <div className="section-title-count text-lg">05</div>
           <div className="text-2xl font-semibold sections-title-color">
@@ -17,7 +17,7 @@ const Tokenomics = () => {
           <div className="section5-title-count text-lg text-transparent">
             05
           </div>
-          <p className="text-white text-sm">
+          <p className="text-white text-sm text-center -mt-6 md:mt-0">
             Armour Wallet tokenomics is structured to ensure its sustainability.
           </p>
           <div></div>
@@ -32,7 +32,7 @@ const Tokenomics = () => {
                 height="auto"
               />
             </div>
-            <div className="absolute left-[30%] md:left-[32%] lg:left-[21%] xl:left-[22%] 2xl:left-[25%] top-[40%] text-center">
+            <div className="progressbar-position text-center">
               <p className="total-supply text-[11px]">Total Supply</p>
               <h1 className="text-white font-bold text-lg">1,000,000,000</h1>
             </div>

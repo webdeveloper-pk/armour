@@ -22,8 +22,8 @@ const Roadmap = () => {
           <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:-ml-6 lg:-ml-8 xl:-ml-9">
-                <div className="-ml-1.5">
+              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
+                <div>
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 1</p>
@@ -42,7 +42,17 @@ const Roadmap = () => {
             </div>
           </div>
           {/* phase 2 */}
-          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0  xl:px-32">
+          <div>
+            <div className="w-[100%] block md:hidden mt-6">
+              <div className="flex items-center gap-x-6">
+                <div className="">
+                  <img src={dot} alt="dot" width="20px" />
+                </div>
+                <p className="text-white text-sm uppercase">Phase 2</p>
+              </div>
+            </div>
+          </div>
+          <div className="md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm pt-4 pb-2 px-6 mt-6 md:mt-0">
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                 <li>Brand Unveiling</li>
@@ -59,9 +69,9 @@ const Roadmap = () => {
                 <li>CCoinGecko Listing</li>
               </ul>
             </div>
-            <div className="w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:-ml-6 lg:-ml-8 xl:-ml-9 -mt-4 md:-mt-4 lg:-mt-8">
-                <div className="-ml-1.5">
+            <div className="w-[47%] hidden md:block">
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-8 phase-custom-position">
+                <div>
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 2</p>
@@ -72,8 +82,8 @@ const Roadmap = () => {
           <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0  xl:px-32">
             <div className="w-[46%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:-ml-6 lg:-ml-8 xl:-ml-9">
-                <div className="-ml-1.5">
+              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
+                <div>
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 3</p>
@@ -92,7 +102,17 @@ const Roadmap = () => {
             </div>
           </div>
           {/* phase 4 */}
-          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0  xl:px-32">
+          <div>
+            <div className="w-[100%] block md:hidden mt-6">
+              <div className="flex items-center gap-x-6">
+                <div className="">
+                  <img src={dot} alt="dot" width="20px" />
+                </div>
+                <p className="text-white text-sm uppercase">Phase 4</p>
+              </div>
+            </div>
+          </div>
+          <div className="md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm pt-4 pb-2 px-6 mt-6 md:mt-0">
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                 <li>Website V2 Release</li>
@@ -103,9 +123,9 @@ const Roadmap = () => {
                 <li>Ambassadorial Scheme</li>
               </ul>
             </div>
-            <div className="w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:-ml-6 lg:-ml-8 xl:-ml-9 -mt-4 md:-mt-4 lg:-mt-8">
-                <div className="-ml-1.5">
+            <div className="w-[47%] hidden md:block">
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-8 phase-custom-position">
+                <div>
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 4</p>
@@ -116,8 +136,8 @@ const Roadmap = () => {
           <div className="mt-8 lg:mt-12 flex flex-row justify-between px-2 md:px-0  xl:px-32">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:-ml-6 lg:-ml-8 xl:-ml-9">
-                <div className="-ml-1.5">
+              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
+                <div>
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 5</p>

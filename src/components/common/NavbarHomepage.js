@@ -5,24 +5,24 @@ const NavbarHomepage = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="text-white px-6 md:px-16 homepage-container mx-auto">
+      <nav className="text-white px-6 md:px-12 lg:px-16 homepage-container mx-auto">
         <div className="mx-auto md:flex justify-between md:items-baseline py-6 mt-4">
           <div>
             <div className="flex-row flex justify-between items-center w-full">
               <a href="/">
-                <span className="uppercase text-white text-lg font-semibold">
+                <span className="uppercase text-white text-base lg:text-lg font-semibold">
                   Armour Wallet
                 </span>
               </a>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-light-white rounded-md outline-none focus:none"
+                  className="pt-2 text-light-white rounded-md outline-none focus:none"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-9 h-8 text-white"
+                      className="w-8 h-7 text-white"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -35,7 +35,7 @@ const NavbarHomepage = () => {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-9 h-8 text-white"
+                      className="w-8 h-7 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -54,7 +54,7 @@ const NavbarHomepage = () => {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center py-16 md:py-0 md:block ${
+              className={`h-[80vh] flex justify-center items-center md:h-[100%] md:block ${
                 navbar ? "block" : "hidden"
               }`}
             >
@@ -63,7 +63,7 @@ const NavbarHomepage = () => {
                   <Link to="/">
                     <button
                       onClick={() => setNavbar(!navbar)}
-                      className="custom-button text-white text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer"
+                      className="custom-button text-white text-sm md:text-xs lg:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer"
                     >
                       Launching Soon
                     </button>

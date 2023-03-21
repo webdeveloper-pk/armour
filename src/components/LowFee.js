@@ -15,14 +15,21 @@ const LowFee = () => {
               src={hero1}
               alt="hero"
               className="w-[75%] md:w-[50%] lg:w-[80%] xl:w-[65%] h-auto"
+              data-aos="zoom-in-right"
             />
           </div>
           <div className="w-[100%] lg:w-[60%] flex flex-col md:items-end md:text-left items-center text-center z-50">
-            <h1 className="w-full xl:w-[90%] text-2xl xl:text-2xl mb-4 font-bold text-light-white uppercase">
+            <h1
+              className="w-full xl:w-[90%] text-2xl xl:text-2xl mb-4 font-bold text-light-white uppercase"
+              data-aos="fade-down-left"
+            >
               Exchange through our crypto platform <br />
               <span className="sections-title-color">with low fees,</span>
             </h1>
-            <span className="mb-7 w-full text-sm hero-description xl:w-[90%]">
+            <span
+              className="mb-7 w-full text-sm hero-description xl:w-[90%]"
+              data-aos="fade-up-left"
+            >
               Introducing the most affordable and efficient crypto exchange
               platform in town! Say goodbye to those sky-high transaction fees
               that eat away at your hard-earned cryptocurrency. Our platform

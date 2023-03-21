@@ -14,13 +14,21 @@ const Faq = () => {
       </div>
       <div className="px-6 md:px-12 lg:px-16 pb-12 xl:pb-16 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg">06</div>
-          <div className="text-2xl font-semibold sections-title-color ">
+          <div className="section-title-count text-lg" data-aos="fade-right">
+            06
+          </div>
+          <div
+            className="text-2xl font-semibold sections-title-color"
+            data-aos="zoom-in-down"
+          >
             Faqs
           </div>
           <div></div>
         </div>
-        <div className="mt-8 lg:mt-12 flex flex-col px-2 md:px-12 xl:px-44">
+        <div
+          className="mt-8 lg:mt-12 flex flex-col px-2 md:px-12 xl:px-44"
+          data-aos="zoom-in"
+        >
           <div className="">
             <Collapse
               ghost

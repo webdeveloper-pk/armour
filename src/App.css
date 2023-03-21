@@ -33,9 +33,15 @@ p {
   border-radius: 15px;
   border: 1px solid #5b86e5;
 }
-
+.headerRightBtn {
+  position: relative;
+  z-index: 2;
+}
 /* hrero section */
-
+.heroWrapper {
+  position: relative;
+  z-index: 1;
+}
 .bg-blue {
   background: linear-gradient(
     138.4deg,

@@ -9,14 +9,14 @@ const NavbarHomepage = () => {
         <div className="mx-auto md:flex justify-between md:items-baseline py-6 mt-4">
           <div>
             <div className="flex-row flex justify-between items-center w-full">
-              <a href="/">
+              <Link to="/" data-aos="fade-right">
                 <span className="uppercase text-white text-base lg:text-lg font-semibold">
                   Armour Wallet
                 </span>
-              </a>
+              </Link>
               <div className="md:hidden">
                 <button
-                  className="pt-2 text-light-white rounded-md outline-none focus:none"
+                  className="pt-2 text-light-white rounded-md outline-none focus:none "
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -63,7 +63,8 @@ const NavbarHomepage = () => {
                   <Link to="/">
                     <button
                       onClick={() => setNavbar(!navbar)}
-                      className="custom-button text-white text-sm md:text-xs lg:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer"
+                      className="custom-button text-white text-sm md:text-xs lg:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer headerRightBtn"
+                      data-aos="fade-left"
                     >
                       Launching Soon
                     </button>

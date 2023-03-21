@@ -22,8 +22,10 @@ const SectionTwo = () => {
       </div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg">02</div>
-          <div className="text-2xl font-semibold">
+          <div className="section-title-count text-lg" data-aos="fade-right">
+            02
+          </div>
+          <div className="text-2xl font-semibold" data-aos="zoom-in-down">
             That’s why
             <span className="sections-title-color pl-2 text-2xl font-semibold">
               we are best!
@@ -37,6 +39,7 @@ const SectionTwo = () => {
               src={community}
               title="Customer Support & Community"
               description="Our support team is available 24/7 to answer any queries or concerns from users"
+              dataAos="fade-down-right"
             />
           </div>
           <div>
@@ -44,6 +47,7 @@ const SectionTwo = () => {
               src={cases}
               title="Disruptive Use Cases"
               description="Besides community support, utilities are the next lifeblood of any crypto project. And here is why Armour Wallet will disrupt the space."
+              dataAos="fade-down-left"
             />
           </div>
           <div>
@@ -51,6 +55,7 @@ const SectionTwo = () => {
               src={launchpad}
               title="Armour Launchpad"
               description="Armour Wallet will roll out revolutionary launchpad that enables new blockchain and cryptocurrency projects to raise funds and gain market exposure during their initial coin offerings (ICOs) or initial exchange offerings (IEOs)."
+              dataAos="fade-right"
             />
           </div>
           <div>
@@ -58,6 +63,7 @@ const SectionTwo = () => {
               src={bot}
               title="Armour Recommendation Bot(ARB)"
               description="In-built powerful recommendation system that uses strong analytical intelligence to notify users in real-time on cryptocurrencies that have the potentials of making upward or downward trends."
+              dataAos="fade-left"
             />
           </div>
           <div>
@@ -65,6 +71,7 @@ const SectionTwo = () => {
               src={nft}
               title="NFT Support"
               description="Directly store, manage and trade a wide range of NFTs using Armour Wallet."
+              dataAos="fade-right"
             />
           </div>
           <div>
@@ -72,6 +79,7 @@ const SectionTwo = () => {
               src={scheme}
               title="Flexible Staking Scheme"
               description="Enjoy passive, but attractive rewards for Staking your favourite cryptocurrencies in Armour Wallet."
+              dataAos="fade-left"
             />
           </div>
           <div>
@@ -79,6 +87,7 @@ const SectionTwo = () => {
               src={bridge}
               title="In-wallet Bridge"
               description="Users have the luxury of transferring their assets from one chain to another using our innovative cross-chain bridge."
+              dataAos="fade-up-right"
             />
           </div>
           <div>
@@ -86,6 +95,7 @@ const SectionTwo = () => {
               src={marketplace}
               title="Armour Marketplace"
               description="Buy or sell your favourite digital assets like NFTs or useful crypto tools in our marketplace which promises to pool majority of talents in the space."
+              dataAos="fade-up-left"
             />
           </div>
         </div>

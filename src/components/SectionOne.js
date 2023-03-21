@@ -22,8 +22,10 @@ const SectionOne = () => {
       </div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg">01</div>
-          <div className="text-2xl font-semibold">
+          <div className="section-title-count text-lg" data-aos="fade-right">
+            01
+          </div>
+          <div className="text-2xl font-semibold" data-aos="zoom-in-down">
             Why
             <span className="sections-title-color px-1 text-2xl font-semibold">
               Armour Wallet
@@ -38,6 +40,7 @@ const SectionOne = () => {
               src={protocol}
               title="Multi-Layer Security Protocol"
               description="Diversify your portfolio and minimise risk by swiftly acquiring, storing, exchanging and managing different cryptocurrencies in one wallet."
+              dataAos="flip-left"
             />
           </div>
           <div>
@@ -45,6 +48,7 @@ const SectionOne = () => {
               src={feature}
               title={`Multi-Wallet \n Feature`}
               description="Diversify your portfolio and minimise risk by swiftly acquiring, storing, exchanging and managing different cryptocurrencies in one wallet."
+              dataAos="flip-right"
             />
           </div>
           <div>
@@ -52,6 +56,7 @@ const SectionOne = () => {
               src={interfaces}
               title="User-Friendly Interface"
               description="Easily navigate through wallet, notwithstanding level of experience. Explore functionalities and manage digital assets on preferred devices."
+              dataAos="flip-left"
             />
           </div>
           <div>
@@ -59,6 +64,7 @@ const SectionOne = () => {
               src={verification}
               title="No KYC Verification"
               description="Armour Wallet lets you enjoy your privacy and anonymousness by giving you decentralized services which do not require any form of KYC verification or email confirmation."
+              dataAos="flip-right"
             />
           </div>
           <div>
@@ -66,6 +72,7 @@ const SectionOne = () => {
               src={system}
               title="Price Alert System"
               description="Stay on top of market trends and make informed decisions about when to buy or sell assets by setting up price alerts using our AI-backed price alert system."
+              dataAos="flip-left"
             />
           </div>
           <div>
@@ -73,6 +80,7 @@ const SectionOne = () => {
               src={speed}
               title="Friendly Exchange Rates & Speed"
               description="Swiftly buy or sell cryptocurrencies using your credit or debit card at very competitive exchange rates, plus all major fiat currencies are supported."
+              dataAos="flip-right"
             />
           </div>
           <div>
@@ -80,6 +88,7 @@ const SectionOne = () => {
               src={fee}
               title="Transaction Fees & speed"
               description="Competitive transaction fees to ensure that users can swap and manage their cryptocurrencies without incurring high costs."
+              dataAos="flip-left"
             />
           </div>
           <div>
@@ -87,6 +96,7 @@ const SectionOne = () => {
               src={software}
               title="Language Localisation Software"
               description="Switch to a preferred language at a click with diverse language options."
+              dataAos="flip-right"
             />
           </div>
         </div>

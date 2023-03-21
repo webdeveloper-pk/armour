@@ -7,8 +7,13 @@ const Tokenomics = () => {
     <section className="w-full xl:mt-8">
       <div className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 pb-12 xl:pb-24 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg">05</div>
-          <div className="text-2xl font-semibold sections-title-color">
+          <div className="section-title-count text-lg" data-aos="fade-right">
+            05
+          </div>
+          <div
+            className="text-2xl font-semibold sections-title-color"
+            data-aos="zoom-in-down"
+          >
             Tokenomics
           </div>
           <div></div>
@@ -17,7 +22,10 @@ const Tokenomics = () => {
           <div className="section5-title-count text-lg text-transparent">
             05
           </div>
-          <p className="text-white text-sm text-center -mt-6 md:mt-0">
+          <p
+            className="text-white text-sm text-center -mt-6 md:mt-0"
+            data-aos="zoom-in-up"
+          >
             Armour Wallet tokenomics is structured to ensure its sustainability.
           </p>
           <div></div>
@@ -30,15 +38,23 @@ const Tokenomics = () => {
                 alt="progress-bar"
                 className="w-[100%] lg:w-[80%] xl:w-[70%]"
                 height="auto"
+                data-aos="zoom-out-up"
               />
             </div>
             <div className="progressbar-position text-center">
-              <p className="total-supply text-[11px]">Total Supply</p>
-              <h1 className="text-white font-bold text-lg">1,000,000,000</h1>
+              <p className="total-supply text-[11px]" data-aos="zoom-out-right">
+                Total Supply
+              </p>
+              <h1
+                className="text-white font-bold text-lg"
+                data-aos="zoom-out-left"
+              >
+                1,000,000,000
+              </h1>
             </div>
           </div>
           <div className="w-full lg:w-[60%]">
-            <div className="flex flex-col w-full lg:w-[70%]">
+            <div className="flex flex-col w-full lg:w-[70%]" data-aos="zoom-in">
               <div className="custom-border">
                 <p className="name text-xs mb-1">Name:</p>
                 <p className="text-white text-sm">Armour Wallet Token</p>
@@ -63,48 +79,48 @@ const Tokenomics = () => {
           </div>
         </div>
         <div className="py-8 lg:py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#9E03FD"
               text="Public Sale Token"
               percentage="25%"
             />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card color="#FD03E4" text="Liquidity" percentage="20%" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#FD033F"
               text="Exchange Listings"
               percentage="18%"
             />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#B7B1FF"
               text="Initial Burn"
               percentage="17%"
             />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card color="#05FF00" text="Marketing" percentage="10%" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#03B2FD"
               text="Wallet Update and Maintenance"
               percentage="05%"
             />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#CCFF00"
               text="Refer and Earn Scheme"
               percentage="2.5%"
             />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <Section5Card
               color="#03E1FF"
               text="Ambassadorial Programme"

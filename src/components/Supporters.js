@@ -12,27 +12,31 @@ const Supporters = () => {
     <section className="w-full supporters-bg mt-12 xl:mt-0">
       <div className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 pb-16 xl:pb-24 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg">04</div>
-          <div className="text-2xl font-semibold">Supported by:</div>
+          <div className="section-title-count text-lg" data-aos="fade-right">
+            04
+          </div>
+          <div className="text-2xl font-semibold" data-aos="zoom-in-down">
+            Supported by:
+          </div>
           <div></div>
         </div>
         <div className="mt-6 md:mt-10 flex flex-row flex-wrap gap-x-6 lg:gap-x-2  xl:gap-x-0 gap-y-6 justify-center lg:justify-between items-center px-4">
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={pinksale} name="PinkSale" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={pancakeswap} name="PancakeSwap" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={trustwallet} name="Trust Wallet" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={coingecko} name="CoinGecko" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={dextool} name="DexTool" />
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <SupporterCard src={walletconnect} name="WalletConnect" />
           </div>
         </div>

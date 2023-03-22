@@ -84,6 +84,18 @@ p {
   background-clip: text;
 }
 
+.sections-bg {
+  /* background: linear-gradient(
+    261.78deg,
+    rgba(54, 209, 220, 0.04) 0.1%,
+    rgba(91, 134, 229, 0.04) 92.46%
+  ); */
+  background-image: url(../src//assets/images/homepage-bg.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* section 01 */
 
 .section-title-count {
@@ -100,6 +112,7 @@ p {
   border: 0.873303px solid rgba(217, 217, 217, 0.2);
   border-radius: 26px;
   background: rgba(14, 19, 20, 0.2);
+  backdrop-filter: blur(5px);
 }
 
 .section1-bg-postion {
@@ -130,6 +143,7 @@ p {
     rgba(54, 209, 220, 0.22) 0.1%,
     rgba(91, 134, 229, 0.22) 92.07%
   );
+  backdrop-filter: blur(4px);
   border-radius: 15px;
   border: 1px solid #5b86e5;
 }
@@ -413,6 +427,7 @@ p {
   border-radius: 16px;
   background: rgba(80, 80, 80, 0.16);
   margin-bottom: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .ant-collapse

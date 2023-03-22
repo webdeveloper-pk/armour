@@ -26,7 +26,7 @@ const Faq = () => {
           <div></div>
         </div>
         <div
-          className="mt-8 lg:mt-12 flex flex-col px-2 md:px-12 xl:px-44"
+          className="mt-8 lg:mt-12 flex flex-col px-2 md:px-12 lg:px-32 xl:px-64"
           data-aos="zoom-in"
         >
           <div className="">

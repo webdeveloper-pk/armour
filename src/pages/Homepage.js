@@ -11,6 +11,7 @@ import Supporters from "../components/Supporters";
 import Tokenomics from "../components/Tokenomics";
 import Faq from "../components/Faq";
 import Roadmap from "../components/Roadmap";
+import TokenomicsTab from "../components/TokenomicsTabs";
 
 const Homepage = () => {
   React.useEffect(() => {
@@ -20,18 +21,21 @@ const Homepage = () => {
   }, []);
   return (
     <>
-      <div className="overflow-body bg-blue">
-        <NavbarHomepage />
-        <Hero />
+      <div className="sections-bg overflow-body">
+        <div className="bg-blue">
+          <NavbarHomepage />
+          <Hero />
+        </div>
+        <SectionOne />
+        <SectionTwo />
+        <NftOfferings />
+        <StakeCoin />
+        <LowFee />
+        <Roadmap />
+        <Supporters />
+        <Tokenomics />
       </div>
-      <SectionOne />
-      <SectionTwo />
-      <NftOfferings />
-      <StakeCoin />
-      <LowFee />
-      <Roadmap />
-      <Supporters />
-      <Tokenomics />
+      <TokenomicsTab />
       <Faq />
     </>
   );

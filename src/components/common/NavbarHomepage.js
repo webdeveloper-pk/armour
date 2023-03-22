@@ -6,7 +6,7 @@ const NavbarHomepage = () => {
   return (
     <div>
       <nav className="text-white px-6 md:px-12 lg:px-16 homepage-container mx-auto">
-        <div className="mx-auto md:flex justify-between md:items-baseline py-6 mt-4">
+        <div className="mx-auto md:flex justify-between md:items-baseline pt-10 pb-6">
           <div>
             <div className="flex-row flex justify-between items-center w-full">
               <Link to="/" data-aos="fade-right">

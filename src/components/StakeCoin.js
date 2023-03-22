@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../src/assets/images/nft-offerings-bg.png";
+import bg from "../../src/assets/images/stake-bg.png";
 import hero1 from "../../src/assets/images/stake-coin-image.png";
 
 const StakeCoin = () => {
@@ -9,19 +9,18 @@ const StakeCoin = () => {
         <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
       <div className="px-6 md:px-12 lg:px-16 py-12 lg:py-16 text-light-white homepage-container mx-auto">
-        <div className="mx-auto flex lg:flex-row flex-col items-center gap-y-12 px-2 md:px-12 xl:px-24">
+        <div className="mx-auto flex lg:flex-row flex-col items-center gap-y-12 md:px-8 xl:px-24">
           <div className="w-[100%] lg:w-[60%] flex flex-col md:items-start md:text-left items-center text-center z-50">
             <h1
-              className="w-full xl:w-[90%] text-2xl xl:text-2xl mb-4 font-bold text-light-white uppercase"
+              className="w-full xl:w-[90%] text-2xl xl:text-[28px] mb-4 font-bold text-light-white uppercase"
               data-aos="fade-down-right"
+              style={{ lineHeight: "40px" }}
             >
-              <span className="pr-2 sections-title-color ">
-                Stake your coin
-              </span>
+              <span className="pr-2 sections-title-color">Stake your coin</span>
               and get an opportunity to earn a passive income
             </h1>
             <span
-              className="mb-7 w-full text-sm hero-description xl:w-[90%]"
+              className="mb-7 w-full  text-[14px] md:text-[16px] hero-description xl:w-[90%]"
               data-aos="fade-up-right"
             >
               Looking for a smart and reliable way to grow your cryptocurrency
@@ -40,7 +39,7 @@ const StakeCoin = () => {
             <img
               src={hero1}
               alt="hero"
-              className="w-[75%] md:w-[50%] lg:w-[80%] xl:w-[65%] h-auto"
+              className="w-[75%] md:w-[50%] lg:w-[80%] xl:w-[70%] h-auto"
               data-aos="zoom-in-left"
             />
           </div>

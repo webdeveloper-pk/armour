@@ -5,7 +5,7 @@ import Homepage from "./pages/Homepage";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App custom-padding">
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import line from "../assets/images/section3-line.png";
+import line from "../assets/images/section3-line-image.png";
 import dot from "../assets/images/section3-dot.png";
 
 const Roadmap = () => {
@@ -18,14 +18,30 @@ const Roadmap = () => {
         </div>
         <div className="uppercase relative">
           <div className="absolute left-[50%] hidden md:block">
-            <img src={line} alt="line" className="w-[71%] lg:w-[72%]" />
+            <img
+              src={line}
+              alt="line"
+              className="md:w-[71%] lg:w-[74%] xl:w-[71%]"
+            />
           </div>
           {/*  phase 1 */}
-          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
+          <div>
+            <div className="w-[100%] block md:hidden mt-6">
+              <div className="flex items-center gap-x-6">
+                <div className="">
+                  <img src={dot} alt="dot" width="20px" />
+                </div>
+                <p className="text-white text-sm uppercase" data-aos="zoom-in">
+                  Phase 1
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
-                <div>
+              <div className="flex items-center gap-x-6 mb-5 md:mb-3 lg:mb-5 hidden md:block">
+                <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase" data-aos="zoom-in">
@@ -33,10 +49,10 @@ const Roadmap = () => {
                 </p>
               </div>
               <div
-                className="section3-custom-button text-white text-sm pt-4 pb-2 px-6 md:px-3 lg:px-6"
+                className="section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 md:px-3 lg:px-6"
                 data-aos="zoom-in-left"
               >
-                <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
+                <ul className="list-disc pl-5 md:pl-5 lg:pl-5">
                   <li>Armour Wallet Ideation</li>
                   <li>Extensive Research</li>
                   <li>Team On boarding</li>
@@ -63,7 +79,7 @@ const Roadmap = () => {
           </div>
           <div className="md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div
-              className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
+              className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
               data-aos="zoom-in-right"
             >
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
@@ -82,8 +98,8 @@ const Roadmap = () => {
               </ul>
             </div>
             <div className="w-[47%] hidden md:block">
-              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-8 phase-custom-position">
-                <div>
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-2 lg:-mt-10 xl:-mt-[29px] md:ml-4 lg:ml-4">
+                <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 2</p>
@@ -91,11 +107,23 @@ const Roadmap = () => {
             </div>
           </div>
           {/* phase 3 */}
-          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0  xl:px-32">
+          <div>
+            <div className="w-[100%] block md:hidden mt-6">
+              <div className="flex items-center gap-x-6">
+                <div className="">
+                  <img src={dot} alt="dot" width="20px" />
+                </div>
+                <p className="text-white text-sm uppercase" data-aos="zoom-in">
+                  Phase 3
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 md:mt-3 lg:mt-14 xl:mt-[53px] flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[46%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
-                <div>
+              <div className="flex items-center gap-x-6 mb-5 hidden md:block">
+                <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase" data-aos="zoom-in">
@@ -103,7 +131,7 @@ const Roadmap = () => {
                 </p>
               </div>
               <div
-                className=" section3-custom-button text-white text-sm pt-4 pb-2 px-6"
+                className=" section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6"
                 data-aos="zoom-in-left"
               >
                 <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
@@ -131,9 +159,9 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <div className="md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
+          <div className="md:mt-8 lg:mt-16 xl:mt-[66px] flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div
-              className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
+              className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
               data-aos="zoom-in-right"
             >
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
@@ -146,8 +174,8 @@ const Roadmap = () => {
               </ul>
             </div>
             <div className="w-[47%] hidden md:block">
-              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-8 phase-custom-position">
-                <div>
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-4 xl:-mt-8 md:ml-4 lg:ml-4">
+                <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase">Phase 4</p>
@@ -155,11 +183,23 @@ const Roadmap = () => {
             </div>
           </div>
           {/* phase 5 */}
-          <div className="mt-8 lg:mt-12 flex flex-row justify-between px-2 md:px-0  xl:px-32">
+          <div>
+            <div className="w-[100%] block md:hidden mt-6">
+              <div className="flex items-center gap-x-6">
+                <div className="">
+                  <img src={dot} alt="dot" width="20px" />
+                </div>
+                <p className="text-white text-sm uppercase" data-aos="zoom-in">
+                  Phase 5
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 md:mt-20 lg:mt-[88px] xl:mt-[66px] flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 phase-custom-position">
-                <div>
+              <div className="flex items-center gap-x-6 mb-5 hidden md:block">
+                <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
                 <p className="text-white text-sm uppercase" data-aos="zoom-in">
@@ -167,7 +207,7 @@ const Roadmap = () => {
                 </p>
               </div>
               <div
-                className="section3-custom-button text-white text-sm pt-4 pb-2 px-6"
+                className="section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6"
                 data-aos="zoom-in-left"
               >
                 <ul className="list-disc pl-5 md:pl-3 lg:pl-5">

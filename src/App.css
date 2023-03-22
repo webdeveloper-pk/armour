@@ -22,6 +22,11 @@ p {
   overflow: hidden;
 }
 
+.custom-padding {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
 /* header */
 
 .custom-button {
@@ -33,11 +38,14 @@ p {
   border-radius: 15px;
   border: 1px solid #5b86e5;
 }
+
 .headerRightBtn {
   position: relative;
   z-index: 2;
 }
+
 /* hrero section */
+
 .heroWrapper {
   position: relative;
   z-index: 1;
@@ -61,12 +69,25 @@ p {
   color: rgba(255, 255, 255, 0.71);
   font-style: normal;
   font-weight: 200;
-  line-height: 22px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 425px) and (min-width: 0px) {
+  .hero-description {
+    line-height: 20px;
+  }
 }
 
 .hero-bg-postion {
   position: absolute;
   top: 15%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .hero-bg-postion {
+    position: absolute;
+    top: 8%;
+  }
 }
 
 @media screen and (max-width: 3060px) and (min-width: 2141px) {
@@ -121,6 +142,13 @@ p {
   top: 40%;
 }
 
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .section1-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
+}
+
 @media screen and (max-width: 2400px) and (min-width: 1900px) {
   .section1-bg-postion {
     position: absolute;
@@ -154,6 +182,13 @@ p {
   top: 30%;
 }
 
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .section2-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
+}
+
 @media screen and (max-width: 2400px) and (min-width: 1900px) {
   .section2-bg-postion {
     position: absolute;
@@ -168,11 +203,24 @@ p {
   }
 }
 
+.section2-description {
+  color: rgba(255, 255, 255, 0.81);
+  font-style: normal;
+  font-weight: 200;
+}
+
 /* nft section */
 
 .nft-bg-postion {
   position: absolute;
   top: 15%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .nft-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 3000px) and (min-width: 2100px) {
@@ -186,13 +234,20 @@ p {
 
 .stake-bg-postion {
   position: absolute;
-  top: 15%;
+  top: 30%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .stake-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 3000px) and (min-width: 2100px) {
   .stake-bg-postion {
     position: absolute;
-    top: 10%;
+    top: 20%;
   }
 }
 
@@ -201,6 +256,13 @@ p {
 .fee-bg-postion {
   position: absolute;
   top: 15%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .fee-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 3000px) and (min-width: 2100px) {
@@ -214,7 +276,7 @@ p {
 
 .section3-custom-button {
   position: relative;
-  border-radius: 15px;
+  border-radius: 16px;
   border: 1px solid #5b86e5;
 }
 
@@ -237,6 +299,7 @@ p {
     rgba(54, 209, 220, 0.22) 0.1%,
     rgba(91, 134, 229, 0.22) 92.07%
   );
+  border-radius: 16px;
 }
 
 .phase-custom-position {
@@ -307,16 +370,18 @@ p {
   );
 }
 
-.progressbar-position {
-  position: absolute;
-  left: 27%;
-  top: 40%;
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  .progressbar-position {
+    position: absolute;
+    left: 25%;
+    top: 37%;
+  }
 }
 
 @media screen and (max-width: 375px) and (min-width: 321px) {
   .progressbar-position {
     position: absolute;
-    left: 30%;
+    left: 29%;
     top: 40%;
   }
 }
@@ -329,26 +394,34 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 628px) and (min-width: 426px) {
   .progressbar-position {
     position: absolute;
-    left: 34%;
-    top: 40%;
+    left: 20%;
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 628px) {
+  .progressbar-position {
+    position: absolute;
+    left: 22%;
+    top: 38%;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .progressbar-position {
     position: absolute;
-    left: 22%;
-    top: 40%;
+    left: 16%;
+    top: 38%;
   }
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1025px) {
   .progressbar-position {
     position: absolute;
-    left: 22%;
+    left: 15%;
     top: 40%;
   }
 }
@@ -356,16 +429,32 @@ p {
 @media screen and (max-width: 1640px) and (min-width: 1441px) {
   .progressbar-position {
     position: absolute;
-    left: 24%;
+    left: 18%;
     top: 40%;
   }
 }
 
-@media screen and (max-width: 2040px) and (min-width: 1641px) {
+@media screen and (max-width: 1740px) and (min-width: 1641px) {
   .progressbar-position {
     position: absolute;
-    left: 25%;
-    top: 42%;
+    left: 18%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 2040px) and (min-width: 1741px) {
+  .progressbar-position {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 3040px) and (min-width: 2041px) {
+  .progressbar-position {
+    position: absolute;
+    left: 20%;
+    top: 40%;
   }
 }
 
@@ -410,6 +499,13 @@ p {
 .faq-bg-postion {
   position: absolute;
   top: 20%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .faq-bg-postion {
+    position: absolute;
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 3000px) and (min-width: 2200px) {

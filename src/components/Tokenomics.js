@@ -31,7 +31,7 @@ const Tokenomics = () => {
           <div></div>
         </div>
         <div className="mt-8 mb-4 lg:mb-6 lg:mt-12 flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-y-6 px-2 md:px-12 xl:px-24">
-          <div className="w-full md:w-[60%] lg:w-[40%] relative">
+          <div className="w-full md:w-[60%] lg:w-[60%] xl:w-[45%] relative">
             <div>
               <img
                 src={progressbar}
@@ -42,11 +42,14 @@ const Tokenomics = () => {
               />
             </div>
             <div className="progressbar-position text-center">
-              <p className="total-supply text-[11px]" data-aos="zoom-out-right">
+              <p
+                className="total-supply text-[14px] md:text-[18px]"
+                data-aos="zoom-out-right"
+              >
                 Total Supply
               </p>
               <h1
-                className="text-white font-bold text-lg"
+                className="text-white font-bold text-xl md:text-3xl mt-1"
                 data-aos="zoom-out-left"
               >
                 1,000,000,000
@@ -56,23 +59,27 @@ const Tokenomics = () => {
           <div className="w-full lg:w-[60%]">
             <div className="flex flex-col w-full lg:w-[70%]" data-aos="zoom-in">
               <div className="custom-border">
-                <p className="name text-xs mb-1">Name:</p>
-                <p className="text-white text-sm">Armour Wallet Token</p>
+                <p className="name text-xs md:text-sm mb-1">Name:</p>
+                <p className="text-white text-sm md:text-base">
+                  Armour Wallet Token
+                </p>
               </div>
               <div className=" flex justify-between pt-6">
                 <div className="text-white">
-                  <p className="text-xs mb-1">Symbol:</p>
-                  <p className="text-sm mb-3">$AWT</p>
-                  <p className="name text-xs mb-1">Total Supply:</p>
-                  <p className="text-sm mb-3">1,000,000,000</p>
-                  <p className="name text-xs mb-1">Address</p>
-                  <p className="text-sm">-</p>
+                  <p className="text-xs md:text-sm mb-1">Symbol:</p>
+                  <p className="text-sm md:text-base mb-3">$AWT</p>
+                  <p className="name text-xs md:text-sm mb-1">Total Supply:</p>
+                  <p className="text-sm md:text-base mb-3">1,000,000,000</p>
+                  <p className="name text-xs md:text-sm  mb-1">Address</p>
+                  <p className="text-sm md:text-base">-</p>
                 </div>
                 <div className="text-white">
-                  <p className="text-xs mb-1">Network:</p>
-                  <p className="text-sm mb-3">Binance Smart Chain</p>
-                  <p className="name text-xs mb-1 uppercase">Tax:</p>
-                  <p className="text-sm mb-3">0%</p>
+                  <p className="text-xs md:text-sm  mb-1">Network:</p>
+                  <p className="ttext-sm md:text-base mb-3">
+                    Binance Smart Chain
+                  </p>
+                  <p className="name text-xs md:text-sm mb-1 uppercase">Tax:</p>
+                  <p className="text-sm md:text-base mb-3">0%</p>
                 </div>
               </div>
             </div>

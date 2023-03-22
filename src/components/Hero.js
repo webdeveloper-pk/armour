@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="mx-auto flex lg:flex-row flex-col items-center gap-y-16 lg:-mt-10 xl:-mt-12">
           <div className="w-[100%] lg:w-[53%] xl:w-[55%] flex flex-col md:items-start md:text-left items-center text-center z-50">
             <h1
-              className="text-2xl xl:text-3xl mb-4 font-bold text-light-white uppercase"
+              className="text-2xl xl:text-[34px] mb-4 font-bold text-light-white uppercase"
               data-aos="zoom-in-down"
             >
               Disrupting
@@ -20,10 +20,10 @@ const Hero = () => {
                 Crypto Wallet Experience
               </span>
               <br />
-              <div className="mt-1.5">with Game-Changing Solutions!</div>
+              <div className="mt-4">with Game-Changing Solutions!</div>
             </h1>
             <div
-              className="mb-7 w-[95%] md:w-[100%] xl:w-[80%] 2xl:w-[70%] text-sm md:text-[15px] hero-description font-light"
+              className="mb-7 w-[95%] md:w-[100%] xl:w-[85%] 2xl:w-[78%] text-sm md:text-[15px] hero-description font-light"
               data-aos="zoom-in-right"
             >
               Armour Wallet is non-custodial,multi-chain, cutting-edge crypto
@@ -32,7 +32,7 @@ const Hero = () => {
               convenience in managing your cryptocurrencies all in one wallet.
             </div>
             <div className="flex justify-center" data-aos="zoom-in-up">
-              <button className="custom-button text-white text-xs md:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer">
+              <button className="custom-button text-white text-xs md:text-base font-semibold py-3 px-7 uppercase cursor-pointer">
                 Launching Soon
               </button>
             </div>

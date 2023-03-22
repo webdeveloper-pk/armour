@@ -26,7 +26,7 @@ const Faq = () => {
           <div></div>
         </div>
         <div
-          className="mt-8 lg:mt-12 flex flex-col px-2 md:px-12 lg:px-32 xl:px-64"
+          className="mt-8 lg:mt-12 flex flex-col md:px-12 lg:px-32 xl:px-64"
           data-aos="zoom-in"
         >
           <div className="">
@@ -36,11 +36,11 @@ const Faq = () => {
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
+                  <div className="flex justify-end pr-2 md:pr-8">
                     <img src={dropup} alt="dropup" width="12px" height="12px" />
                   </div>
                 ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
+                  <div className="flex justify-end pr-2 md:pr-8">
                     <img
                       src={dropdown}
                       alt="dropdown"

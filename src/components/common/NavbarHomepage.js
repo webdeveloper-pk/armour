@@ -6,11 +6,14 @@ const NavbarHomepage = () => {
   return (
     <div>
       <nav className="text-white px-6 md:px-12 lg:px-16 homepage-container mx-auto">
-        <div className="mx-auto md:flex justify-between md:items-baseline pt-10 pb-6">
+        <div className="mx-auto md:flex justify-between md:items-baseline pt-8 md:pt-12 pb-6">
           <div>
             <div className="flex-row flex justify-between items-center w-full">
               <Link to="/" data-aos="fade-right">
-                <span className="uppercase text-white text-base lg:text-lg font-semibold">
+                <span
+                  className="uppercase text-white text-base lg:text-[20px] font-bold"
+                  style={{ fontWeight: "700" }}
+                >
                   Armour Wallet
                 </span>
               </Link>
@@ -63,7 +66,7 @@ const NavbarHomepage = () => {
                   <Link to="/">
                     <button
                       onClick={() => setNavbar(!navbar)}
-                      className="custom-button text-white text-sm md:text-xs lg:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer headerRightBtn"
+                      className="custom-button text-white text-sm md:text-xs lg:text-base font-semibold py-3 px-7 uppercase cursor-pointer headerRightBtn"
                       data-aos="fade-left"
                     >
                       Launching Soon

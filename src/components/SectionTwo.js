@@ -1,6 +1,6 @@
 import React from "react";
 import Section2Card from "./common/Section2Card";
-import bg from "../../src/assets/images/section1-bg.png";
+import bg from "../../src/assets/images/section2-bg.png";
 import bg2 from "../../src/assets/images/section1-bg2.png";
 import community from "../../src/assets/images/section2-community.png";
 import cases from "../../src/assets/images/section2-cases.png";

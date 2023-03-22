@@ -58,9 +58,10 @@ p {
 }
 
 .hero-description {
-  color: rgba(255, 255, 255, 0.81);
+  color: rgba(255, 255, 255, 0.71);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
+  line-height: 22px;
 }
 
 .hero-bg-postion {

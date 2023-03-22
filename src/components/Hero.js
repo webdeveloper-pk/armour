@@ -19,17 +19,18 @@ const Hero = () => {
               <span className="pl-2 heading-color sections-title-color">
                 Crypto Wallet Experience
               </span>
-              <br /> with Game-Changing Solutions!
+              <br />
+              <div className="mt-1.5">with Game-Changing Solutions!</div>
             </h1>
-            <span
-              className="mb-7 w-[95%] md:w-[100%] 2xl:w-[75%] text-sm md:text-base hero-description"
+            <div
+              className="mb-7 w-[95%] md:w-[100%] xl:w-[80%] 2xl:w-[70%] text-sm md:text-[15px] hero-description font-light"
               data-aos="zoom-in-right"
             >
               Armour Wallet is non-custodial,multi-chain, cutting-edge crypto
               wallet modelled to revolutionise traditional wallet systems
               through its ground-breaking solutions. Experience a new level of
               convenience in managing your cryptocurrencies all in one wallet.
-            </span>
+            </div>
             <div className="flex justify-center" data-aos="zoom-in-up">
               <button className="custom-button text-white text-xs md:text-sm font-semibold py-2.5 px-6 uppercase cursor-pointer">
                 Launching Soon

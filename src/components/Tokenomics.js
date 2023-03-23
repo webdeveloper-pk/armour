@@ -1,5 +1,4 @@
 import React from "react";
-import Section5Card from "./common/Section5Card";
 import progressbar from "../../src/assets/images/section5-progressbar.png";
 
 const Tokenomics = () => {

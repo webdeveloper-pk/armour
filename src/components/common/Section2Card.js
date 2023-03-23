@@ -7,7 +7,7 @@ const Section2Card = ({ src, title, description, dataAos }) => {
       data-aos={dataAos}
     >
       <div className="section2-card w-[10%] rounded-xl w-[70px] h-[70px] flex justify-center items-center">
-        <img src={src} alt="image" width="32px" height="auto" />
+        <img src={src} alt="logo" width="32px" height="auto" />
       </div>
       <div className="text-center md:text-left w-full md:w-[80%]">
         <p className=" uppercase text-base text-white font-bold">{title}</p>

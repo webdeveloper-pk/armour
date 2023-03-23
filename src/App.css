@@ -231,6 +231,13 @@ p {
   }
 }
 
+.nft-description {
+  color: rgba(255, 255, 255, 0.81);
+  font-style: normal;
+  font-weight: 200;
+  line-height: 24px;
+}
+
 /* stake section */
 
 .stake-bg-postion {

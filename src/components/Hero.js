@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="mx-auto flex lg:flex-row flex-col items-center gap-y-16 lg:-mt-10 xl:-mt-12">
           <div className="w-[100%] lg:w-[53%] xl:w-[55%] flex flex-col md:items-start md:text-left items-center text-center z-50">
             <h1
-              className="text-2xl xl:text-[34px] mb-4 font-bold text-light-white uppercase"
+              className="text-2xl xl:text-[31px] mb-4 font-bold text-light-white uppercase"
               data-aos="zoom-in-down"
             >
               Disrupting

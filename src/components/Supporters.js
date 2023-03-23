@@ -20,7 +20,7 @@ const Supporters = () => {
           </div>
           <div></div>
         </div>
-        <div className="mt-6 md:mt-10 flex flex-col md:flex-row flex-wrap gap-x-6 md:gap-x-16 lg:gap-x-6 lg:gap-x-2 xl:gap-x-0 gap-y-6 justify-center lg:justify-between items-center px-4">
+        <div className="mt-6 md:mt-10 flex flex-row flex-wrap gap-x-8 md:gap-x-16 lg:gap-x-8 xl:gap-x-0 gap-y-6 justify-center xl:justify-between items-center md:px-4">
           <div data-aos="zoom-in">
             <SupporterCard src={pinksale} name="PinkSale" />
           </div>

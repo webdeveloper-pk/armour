@@ -31,21 +31,27 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 1
+                <p
+                  className="text-white text-lg uppercase font-bold"
+                  data-aos="zoom-in"
+                >
+                  Phase 01
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
+          <div className="mt-8 md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 md:mb-3 lg:mb-5 hidden md:block">
+              <div className="flex items-center gap-x-6 mb-5 md:mb-3 lg:mb-5 hidden md:block md:-mt-1">
                 <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 1
+                <p
+                  className="text-white text-[17px] font-bold uppercase"
+                  data-aos="zoom-in"
+                >
+                  Phase 01
                 </p>
               </div>
               <div
@@ -71,8 +77,8 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 2
+                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                  Phase 02
                 </p>
               </div>
             </div>
@@ -98,11 +104,11 @@ const Roadmap = () => {
               </ul>
             </div>
             <div className="w-[47%] hidden md:block">
-              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-2 lg:-mt-10 xl:-mt-[29px] md:ml-4 lg:ml-4">
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-11 xl:-mt-[35px] md:ml-4 lg:ml-4">
                 <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase">Phase 2</p>
+                <p className="text-white text-[17px] uppercase">Phase 02</p>
               </div>
             </div>
           </div>
@@ -113,8 +119,8 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 3
+                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                  Phase 03
                 </p>
               </div>
             </div>
@@ -122,12 +128,15 @@ const Roadmap = () => {
           <div className="mt-8 md:mt-3 lg:mt-14 xl:mt-[53px] flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[46%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 hidden md:block">
+              <div className="flex items-center gap-x-6 mb-5 hidden md:block md:-mt-1 xl:-mt-2">
                 <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 3
+                <p
+                  className="text-white text-[17px] uppercase"
+                  data-aos="zoom-in"
+                >
+                  Phase 03
                 </p>
               </div>
               <div
@@ -153,8 +162,8 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 4
+                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                  Phase 04
                 </p>
               </div>
             </div>
@@ -174,11 +183,11 @@ const Roadmap = () => {
               </ul>
             </div>
             <div className="w-[47%] hidden md:block">
-              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-4 lg:-mt-4 xl:-mt-8 md:ml-4 lg:ml-4">
+              <div className="flex items-center gap-x-6 mb-5 -mt-4 md:-mt-6 lg:-mt-6 xl:-mt-[38px] md:ml-4 lg:ml-4">
                 <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase">Phase 4</p>
+                <p className="text-white text-[17px] uppercase">Phase 04</p>
               </div>
             </div>
           </div>
@@ -189,8 +198,8 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 5
+                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                  Phase 05
                 </p>
               </div>
             </div>
@@ -198,12 +207,15 @@ const Roadmap = () => {
           <div className="mt-8 md:mt-20 lg:mt-[88px] xl:mt-[66px] flex flex-row justify-between px-2 md:px-0 xl:px-32 md:ml-8">
             <div className="w-[47%] hidden md:block"></div>
             <div className="w-[100%] md:w-[47%]">
-              <div className="flex items-center gap-x-6 mb-5 hidden md:block">
+              <div className="flex items-center gap-x-6 mb-5 hidden md:block md:-mt-2">
                 <div className="hidden">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-sm uppercase" data-aos="zoom-in">
-                  Phase 5
+                <p
+                  className="text-white text-[17px] uppercase"
+                  data-aos="zoom-in"
+                >
+                  Phase 05
                 </p>
               </div>
               <div

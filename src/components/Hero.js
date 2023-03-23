@@ -32,7 +32,7 @@ const Hero = () => {
               convenience in managing your cryptocurrencies all in one wallet.
             </div>
             <div className="flex justify-center" data-aos="zoom-in-up">
-              <button className="custom-button text-white text-xs md:text-base font-semibold py-3 px-7 uppercase cursor-pointer">
+              <button className="custom-button text-white text-xs md:text-sm font-semibold py-3 px-7 uppercase cursor-pointer">
                 Launching Soon
               </button>
             </div>

@@ -50,6 +50,7 @@ p {
   position: relative;
   z-index: 1;
 }
+
 .bg-blue {
   background: linear-gradient(
     138.4deg,
@@ -564,10 +565,6 @@ p {
   }
 }
 
-/* .ant-collapse-content-active {
-  border: 1px solid yellow;
-} */
-
 .ant-collapse-icon-position-end
   > .ant-collapse-item
   > .ant-collapse-header:focus {
@@ -579,3 +576,9 @@ p {
   > .ant-collapse-header:active {
   border: 1px solid #5b86e5;
 }
+/* 
+.ant-collapse-icon-position-end
+  > .ant-collapse-item
+  > .ant-collapse-header:hover {
+  border: 1px solid #5b86e5;
+} */

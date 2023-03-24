@@ -6,7 +6,7 @@ const NavbarHomepage = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="text-white px-6 md:px-12 lg:px-12 mx-auto">
+      <nav className="text-white px-6 md:px-12 lg:px-12 homepage-container mx-auto">
         <div className="mx-auto lg:flex justify-between lg:items-start pt-8 md:pt-10 pb-6">
           <div>
             <div className="flex-row flex justify-between items-center w-full">

@@ -12,6 +12,7 @@ import Tokenomics from "../components/Tokenomics";
 import Faq from "../components/Faq";
 import Roadmap from "../components/Roadmap";
 import TokenomicsTab from "../components/TokenomicsTabs";
+import FooterHomepage from "../components/FooterHomepage";
 
 const Homepage = () => {
   React.useEffect(() => {
@@ -37,6 +38,7 @@ const Homepage = () => {
       </div>
       <TokenomicsTab />
       <Faq />
+      <FooterHomepage />
     </>
   );
 };

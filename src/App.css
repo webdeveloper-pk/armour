@@ -29,7 +29,7 @@ p {
 
 /* header */
 
-.custom-button {
+.navbar-button {
   background: linear-gradient(
     261.51deg,
     rgba(54, 209, 220, 0.22) 0.1%,
@@ -39,9 +39,110 @@ p {
   border: 1px solid #5b86e5;
 }
 
+.navbar-button:hover {
+  background: linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
+}
+
 .headerRightBtn {
   position: relative;
   z-index: 2;
+}
+
+.logo-title {
+  background: linear-gradient(260.2deg, #36d1dc 43.36%, #5b86e5 101.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btn {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-one {
+  color: #f2f2f2;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-one span {
+  transition: all 0.3s;
+}
+.btn-one::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #5b86e5;
+  border-bottom-color: #5b86e5;
+  transform: scale(0.1, 1);
+}
+
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-one::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: transparent;
+}
+
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+.box-1 {
+  background-color: transparent;
+}
+
+/* header */
+.header-item1 {
+  animation-delay: 0.2s;
+}
+.hheader-item2 {
+  opacity: 0;
+}
+.header-item3 {
+  animation-delay: 0.4s;
+}
+.header-item4 {
+  animation-delay: 0.6s;
+}
+.header-item5 {
+  animation-delay: 0.8s;
+}
+.header-item6 {
+  animation-delay: 1s;
+}
+.header-item7 {
+  animation-delay: 1.2s;
 }
 
 /* hrero section */
@@ -98,6 +199,21 @@ p {
   }
 }
 
+.hero-button {
+  background: linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.hero-button:hover {
+  background: linear-gradient(
+    261.51deg,
+    rgba(54, 209, 220, 0.22) 0.1%,
+    rgba(91, 134, 229, 0.22) 92.07%
+  );
+  border: 1px solid #5b86e5;
+}
+
 /* sections */
 
 .sections-title-color {
@@ -124,8 +240,8 @@ p {
 .section-title-count {
   border: 1px solid #d9d9d9;
   border-radius: 100%;
-  width: 52px;
-  height: 52px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,6 +278,20 @@ p {
     position: absolute;
     top: 20%;
   }
+}
+
+.section1-card-title {
+  background: linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section1-description {
+  color: rgba(255, 255, 255, 0.81);
+  font-style: normal;
+  font-weight: 200;
 }
 
 /* section 02 */
@@ -208,6 +338,14 @@ p {
   color: rgba(255, 255, 255, 0.81);
   font-style: normal;
   font-weight: 200;
+}
+
+.section2-card-title {
+  background: linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 /* nft section */
@@ -381,7 +519,7 @@ p {
 @media screen and (max-width: 320px) and (min-width: 0px) {
   .progressbar-position {
     position: absolute;
-    left: 25%;
+    left: 19%;
     top: 37%;
   }
 }
@@ -389,7 +527,7 @@ p {
 @media screen and (max-width: 375px) and (min-width: 321px) {
   .progressbar-position {
     position: absolute;
-    left: 29%;
+    left: 25%;
     top: 40%;
   }
 }
@@ -397,7 +535,7 @@ p {
 @media screen and (max-width: 425px) and (min-width: 376px) {
   .progressbar-position {
     position: absolute;
-    left: 34%;
+    left: 28%;
     top: 40%;
   }
 }
@@ -405,8 +543,8 @@ p {
 @media screen and (max-width: 628px) and (min-width: 426px) {
   .progressbar-position {
     position: absolute;
-    left: 20%;
-    top: 38%;
+    left: 30%;
+    top: 40%;
   }
 }
 
@@ -429,7 +567,7 @@ p {
 @media screen and (max-width: 1440px) and (min-width: 1025px) {
   .progressbar-position {
     position: absolute;
-    left: 15%;
+    left: 19%;
     top: 40%;
   }
 }
@@ -437,7 +575,7 @@ p {
 @media screen and (max-width: 1640px) and (min-width: 1441px) {
   .progressbar-position {
     position: absolute;
-    left: 18%;
+    left: 22%;
     top: 40%;
   }
 }
@@ -445,7 +583,7 @@ p {
 @media screen and (max-width: 1740px) and (min-width: 1641px) {
   .progressbar-position {
     position: absolute;
-    left: 18%;
+    left: 22%;
     top: 40%;
   }
 }
@@ -453,7 +591,7 @@ p {
 @media screen and (max-width: 2040px) and (min-width: 1741px) {
   .progressbar-position {
     position: absolute;
-    left: 20%;
+    left: 24%;
     top: 40%;
   }
 }
@@ -461,7 +599,7 @@ p {
 @media screen and (max-width: 3040px) and (min-width: 2041px) {
   .progressbar-position {
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 40%;
   }
 }
@@ -540,7 +678,7 @@ p {
   > .ant-collapse-header
   .ant-collapse-header-text {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
   padding-left: 12px;
   padding-top: 12px;
   padding-bottom: 12px;

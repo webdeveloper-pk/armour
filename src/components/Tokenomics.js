@@ -4,13 +4,16 @@ import progressbar from "../../src/assets/images/section5-progressbar.png";
 const Tokenomics = () => {
   return (
     <section className="w-full xl:mt-8">
-      <div className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 homepage-container mx-auto">
+      <div
+        className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 homepage-container mx-auto"
+        id="tokenomics"
+      >
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg" data-aos="fade-right">
+          <div className="section-title-count text-xl" data-aos="fade-right">
             05
           </div>
           <div
-            className="text-2xl font-semibold sections-title-color"
+            className="text-[26px] font-bold sections-title-color"
             data-aos="zoom-in-down"
           >
             Tokenomics
@@ -35,20 +38,20 @@ const Tokenomics = () => {
               <img
                 src={progressbar}
                 alt="progress-bar"
-                className="w-[100%] lg:w-[80%] xl:w-[70%]"
+                className="w-[100%] lg:w-[80%] xl:w-[78%]"
                 height="auto"
                 data-aos="zoom-out-up"
               />
             </div>
             <div className="progressbar-position text-center">
               <p
-                className="total-supply text-[14px] md:text-[18px]"
+                className="total-supply text-[15px] md:text-[18px]"
                 data-aos="zoom-out-right"
               >
                 Total Supply
               </p>
               <h1
-                className="text-white font-bold text-xl md:text-3xl mt-1"
+                className="text-white font-bold text-2xl md:text-3xl mt-1"
                 data-aos="zoom-out-left"
               >
                 1,000,000,000

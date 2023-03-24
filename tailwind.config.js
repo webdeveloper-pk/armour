@@ -16,8 +16,7 @@ module.exports = {
         "light-black": "#1a1a1a",
         "lighter-black": "#404040",
         "lightest-black": "#545454",
-        "blue-black":
-          "linear-gradient(138.4deg, #5B86E5 -117.13%, rgba(91, 134, 229, 0) 27.12%)",
+        "light-blue": "#5B86E5",
       },
     },
   },

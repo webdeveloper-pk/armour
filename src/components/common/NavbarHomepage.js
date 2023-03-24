@@ -1,25 +1,33 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/header-logo.png";
 
 const NavbarHomepage = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="text-white px-6 md:px-12 lg:px-16 homepage-container mx-auto">
-        <div className="mx-auto md:flex justify-between md:items-baseline pt-8 md:pt-10 pb-6">
+      <nav className="text-white px-6 md:px-12 lg:px-12 mx-auto">
+        <div className="mx-auto lg:flex justify-between lg:items-start pt-8 md:pt-10 pb-6">
           <div>
             <div className="flex-row flex justify-between items-center w-full">
               <Link to="/" data-aos="fade-right">
-                <span
-                  className="uppercase text-white text-base lg:text-[18px] font-bold"
+                <div
+                  className="flex items-center uppercase text-white text-base xl:text-[20px] font-bold"
                   style={{ fontWeight: "700" }}
                 >
-                  Armour Wallet
-                </span>
+                  <div className="mr-4">
+                    <img
+                      src={logo}
+                      alt="logo"
+                      className="w-[36px] lg:w-[30px] xl:w-[37px] h-auto"
+                    />
+                  </div>
+                  <span className="logo-title pr-1">Armour</span>Wallet
+                </div>
               </Link>
-              <div className="md:hidden">
+              <div className="lg:hidden">
                 <button
-                  className="pt-2 text-light-white rounded-md outline-none focus:none "
+                  className="pt-2 text-light-white rounded-md outline-none focus:none"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -57,21 +65,78 @@ const NavbarHomepage = () => {
           </div>
           <div>
             <div
-              className={`h-[80vh] flex justify-center items-center md:h-[100%] md:block ${
+              className={`flex justify-center items-center lg:block pt-12 lg:pt-0 ${
+                navbar ? "block" : "hidden"
+              }`}
+            >
+              <ul className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase">
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="/">
+                    <div className="btn btn-one hover:text-light-blue header-item1">
+                      home
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="/">
+                    <div className="btn btn-one hover:text-light-blue header-item2">
+                      about us
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="/">
+                    <div className="btn btn-one hover:text-light-blue header-item3">
+                      features
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="#tokenomics">
+                    <div className="btn btn-one hover:text-light-blue header-item4">
+                      tokenomics
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="#roadmap">
+                    <div className="btn btn-one hover:text-light-blue header-item5">
+                      roadmap
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="/">
+                    <div className="btn btn-one hover:text-light-blue header-item6">
+                      whitepapers
+                    </div>
+                  </a>
+                </li>
+                <li className="box-1" onClick={() => setNavbar(!navbar)}>
+                  <a href="/">
+                    <div className="btn btn-one hover:text-light-blue header-item7">
+                      social links
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div
+              className={`flex justify-center items-center pb-6 lg:pb-0 lg:block ${
                 navbar ? "block" : "hidden"
               }`}
             >
               <ul className="flex flex-col md:flex-row items-center">
                 <li>
-                  <Link to="/">
-                    <button
-                      onClick={() => setNavbar(!navbar)}
-                      className="custom-button text-white text-sm md:text-xs lg:text-sm font-semibold py-3 px-7 uppercase cursor-pointer headerRightBtn"
-                      data-aos="fade-left"
-                    >
-                      Launching Soon
-                    </button>
-                  </Link>
+                  <button
+                    onClick={() => setNavbar(!navbar)}
+                    className="navbar-button text-white text-sm md:text-xs xl:text-sm font-semibold py-3 lg:py-2.5 xl:py-3 px-7 lg:px-5 xl:px-7 uppercase headerRightBtn"
+                    data-aos="fade-left"
+                  >
+                    Launching Soon
+                  </button>
                 </li>
               </ul>
             </div>

@@ -12,10 +12,10 @@ const Supporters = () => {
     <section className="w-full supporters-bg mt-12 xl:mt-0">
       <div className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 pb-16 xl:pb-28 homepage-container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg" data-aos="fade-right">
+          <div className="section-title-count text-xl" data-aos="fade-right">
             04
           </div>
-          <div className="text-2xl font-semibold" data-aos="zoom-in-down">
+          <div className="text-[26px] font-bold" data-aos="zoom-in-down">
             Supported by:
           </div>
           <div></div>

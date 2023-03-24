@@ -22,24 +22,24 @@ const SectionOne = () => {
       </div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg" data-aos="fade-right">
+          <div className="section-title-count text-xl" data-aos="fade-right">
             01
           </div>
-          <div className="text-2xl font-semibold" data-aos="zoom-in-down">
+          <div className="text-[26px] font-bold" data-aos="zoom-in-down">
             Why
-            <span className="sections-title-color px-1 text-2xl font-semibold">
+            <span className="sections-title-color px-1.5 text-[26px] font-bold">
               Armour Wallet
             </span>
             Will be Game-Changing?
           </div>
           <div></div>
         </div>
-        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 px-2 md:px-12 xl:px-32">
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 px-2 md:px-12 xl:px-32">
           <div>
             <Section1Card
               src={protocol}
               title="Multi-Layer Security Protocol"
-              description="Diversify your portfolio and minimise risk by swiftly acquiring, storing, exchanging and managing different cryptocurrencies in one wallet."
+              description="Designed to secure users’ digital assets, with multi-layer security protocols and two-factor authentication to prevent unauthorized access."
               dataAos="flip-left"
             />
           </div>

@@ -33,8 +33,8 @@ const Tokenomics = () => {
           <div></div>
         </div>
         <div className="mt-8 mb-4 lg:mb-6 lg:mt-12 flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-y-6 px-2 md:px-12 xl:px-24">
-          <div className="w-full md:w-[60%] lg:w-[60%] xl:w-[45%] relative">
-            <div>
+          <div className="w-full md:w-[60%] lg:w-[60%] xl:w-[45%] relative lg:-ml-20">
+            <div className="flex justify-center">
               <img
                 src={progressbar}
                 alt="progress-bar"
@@ -58,7 +58,7 @@ const Tokenomics = () => {
               </h1>
             </div>
           </div>
-          <div className="w-full lg:w-[60%]">
+          <div className="w-full lg:w-[60%] lg:pl-12">
             <div className="flex flex-col w-full lg:w-[70%]" data-aos="zoom-in">
               <div className="custom-border">
                 <p className="name text-xs md:text-sm mb-1">Name:</p>

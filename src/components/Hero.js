@@ -42,22 +42,24 @@ const Hero = () => {
               convenience in managing your cryptocurrencies all in one wallet.
             </div>
             <div
-              className="flex flex-col md:flex-row items-center gap-x-4 gap-y-4  justify-center"
+              className="flex flex-col md:flex-row items-center gap-x-4 gap-y-4 justify-center"
               data-aos="zoom-in-up"
             >
-              <a href="#tokenomics">
+              <a href="#tokenomics" target="_self">
                 <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
                   Tokenomics
                 </button>
               </a>
-              <a href="#roadmap">
+              <a href="#roadmap-section" target="_self">
                 <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
                   roadmap
                 </button>
               </a>
+              {/* <a href="/"> */}
               <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
                 app
               </button>
+              {/* </a> */}
             </div>
           </div>
           <div className="w-[100%] lg:w-[45%] flex justify-center items-center z-50">

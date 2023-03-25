@@ -13,17 +13,32 @@ const Faq = () => {
         <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
       <div className="px-6 md:px-12 lg:px-16 pb-12 xl:pb-16 homepage-container mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-lg" data-aos="fade-right">
+        <div className="flex justify-center block md:hidden mb-6 md:mb-0">
+          <div
+            className="section-title-count text-lg text-white"
+            data-aos="fade-right"
+          >
             06
           </div>
-          <div
-            className="text-2xl font-semibold sections-title-color"
-            data-aos="zoom-in-down"
-          >
-            Faqs
+        </div>
+        <div className="relative">
+          <div className="flex justify-start hidden md:block absolute left-0 top-[-50%]">
+            <div
+              className="section-title-count text-lg text-white"
+              data-aos="fade-right"
+            >
+              06
+            </div>
           </div>
-          <div></div>
+          <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
+            <div
+              className="text-2xl font-semibold sections-title-color md:-ml-[16px]"
+              data-aos="zoom-in-down"
+            >
+              Faqs
+            </div>
+            <div></div>
+          </div>
         </div>
         <div
           className="mt-8 lg:mt-12 flex flex-col md:px-12 lg:px-32 xl:px-64"
@@ -52,15 +67,15 @@ const Faq = () => {
               }
             >
               <Panel
-                header="Do I need KYC verification to use Armour Wallet?"
+                header=" Do I need KYC verification to use Armour Wallet?"
                 key="1"
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
+                  <div className="pb-6 text-white text-xs ">
                     No! Armour Wallet prioritizes your privacy and anonymousness
                     and hence doesn’t require any form of profile or identity
-                    verification for our users
+                    verification for our users.
                   </div>
                 </div>
               </Panel>
@@ -91,10 +106,13 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    Armour Wallet is a digital wallet that allows you to
+                    securely store, send, and receive cryptocurrencies. It works
+                    by generating a unique contract address and private key for
+                    each cryptocurrency that you hold. Your contract address
+                    serves as your account number, and your private key is used
+                    to access your funds and authorize transactions.
                   </div>
                 </div>
               </Panel>
@@ -125,10 +143,11 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    To create Armour Wallet, download App on your store or use
+                    our web wallet service. Click on create wallet and follow
+                    the instructions provided to create a wallet, and be sure to
+                    securely store your private key and seed phrase.
                   </div>
                 </div>
               </Panel>
@@ -159,10 +178,9 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    Armour Wallet supports all commonplace cryptocurrencies and
+                    some other unique digital assets.
                   </div>
                 </div>
               </Panel>
@@ -193,10 +211,12 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    To send cryptocurrency, you will need to enter the
+                    recipient’s contract address and the amount of
+                    cryptocurrency that you want to send. To receive
+                    cryptocurrency, simply provide your specific contract
+                    address to the sender.
                   </div>
                 </div>
               </Panel>
@@ -227,10 +247,13 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    A private key is a secret code that allows you to access
+                    your assets in Armour Wallet. It is important to keep your
+                    private key safe and secure, as anyone who has access to it
+                    can also access your funds. You can store your private key
+                    in a secure location, such as a hardware wallet or a
+                    password-protected file.
                   </div>
                 </div>
               </Panel>
@@ -261,10 +284,11 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs ">
+                    The fees charged for transactions may vary depending on the
+                    specific cryptocurrency and the current network conditions.
+                    Be assured that we offer the most competitive fees
+                    available.
                   </div>
                 </div>
               </Panel>
@@ -295,10 +319,11 @@ const Faq = () => {
                 className=""
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs lowercase">
-                    No! Armour Wallet prioritizes your privacy and anonymousness
-                    and hence doesn’t require any form of profile or identity
-                    verification for our users
+                  <div className="pb-6 text-white text-xs">
+                    If you lose access to your wallet or forget your private key
+                    and seed phrase, you may not be able to access your funds.
+                    It is important to keep your private key and seed phrase
+                    safe and to have a backup in case of loss or damage.
                   </div>
                 </div>
               </Panel>

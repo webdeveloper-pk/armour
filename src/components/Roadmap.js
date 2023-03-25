@@ -5,7 +5,10 @@ import dot from "../assets/images/section3-dot.png";
 const Roadmap = () => {
   return (
     <section className="w-full py-12 xl:py-28">
-      <div className="px-6 md:px-16 homepage-container mx-auto" id="roadmap">
+      <div
+        className="px-6 md:px-16 homepage-container mx-auto"
+        id="roadmap-section"
+      >
         <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
           <div className="section-title-count text-xl" data-aos="fade-right">
             03

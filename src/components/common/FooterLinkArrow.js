@@ -13,16 +13,16 @@ const FooterLinkArrow = () => {
         <path
           d="M7 12H17"
           stroke="url(#paint0_linear_0_520)"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M13 8L17 12L13 16"
           stroke="url(#paint1_linear_0_520)"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <defs>
           <linearGradient
@@ -33,8 +33,8 @@ const FooterLinkArrow = () => {
             y2="17.1378"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#36D1DC" />
-            <stop offset="1" stop-color="#5B86E5" />
+            <stop stopColor="#36D1DC" />
+            <stop offset="1" stopColor="#5B86E5" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_0_520"
@@ -44,8 +44,8 @@ const FooterLinkArrow = () => {
             y2="10.3136"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#36D1DC" />
-            <stop offset="1" stop-color="#5B86E5" />
+            <stop stopColor="#36D1DC" />
+            <stop offset="1" stopColor="#5B86E5" />
           </linearGradient>
         </defs>
       </svg>

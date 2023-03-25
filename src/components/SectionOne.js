@@ -34,8 +34,8 @@ const SectionOne = () => {
           </div>
           <div></div>
         </div>
-        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 px-2 md:px-12 xl:px-32">
-          <div>
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8 px-2 md:px-12 xl:px-28">
+          <div className="section1-card-inner">
             <Section1Card
               src={protocol}
               title="Multi-Layer Security Protocol"
@@ -43,7 +43,7 @@ const SectionOne = () => {
               dataAos="flip-left"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={feature}
               title={`Multi-Wallet \n Feature`}
@@ -51,7 +51,7 @@ const SectionOne = () => {
               dataAos="flip-right"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={interfaces}
               title="User-Friendly Interface"
@@ -59,7 +59,7 @@ const SectionOne = () => {
               dataAos="flip-left"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={verification}
               title="No KYC Verification"
@@ -67,7 +67,7 @@ const SectionOne = () => {
               dataAos="flip-right"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={system}
               title="Price Alert System"
@@ -75,7 +75,7 @@ const SectionOne = () => {
               dataAos="flip-left"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={speed}
               title="Friendly Exchange Rates & Speed"
@@ -83,7 +83,7 @@ const SectionOne = () => {
               dataAos="flip-right"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={fee}
               title="Transaction Fees & speed"
@@ -91,7 +91,7 @@ const SectionOne = () => {
               dataAos="flip-left"
             />
           </div>
-          <div>
+          <div className="section1-card-inner">
             <Section1Card
               src={software}
               title="Language Localisation Software"

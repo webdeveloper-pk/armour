@@ -99,7 +99,7 @@ const NavbarHomepage = () => {
                   </a>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <a href="#roadmap">
+                  <a href="#roadmap-section">
                     <div className="btn btn-one hover:text-light-blue header-item5">
                       roadmap
                     </div>
@@ -132,10 +132,10 @@ const NavbarHomepage = () => {
                 <li>
                   <button
                     onClick={() => setNavbar(!navbar)}
-                    className="navbar-button text-white text-sm md:text-xs xl:text-sm font-semibold py-3 lg:py-2.5 xl:py-3 px-7 lg:px-5 xl:px-7 uppercase headerRightBtn"
+                    className="navbar-btn1 navbar-button text-white text-sm md:text-xs xl:text-sm font-semibold py-3 lg:py-2.5 xl:py-3 px-7 lg:px-5 xl:px-7 uppercase headerRightBtn"
                     data-aos="fade-left"
                   >
-                    Launching Soon
+                    <span className="navbar-btn2">Launching Soon</span>
                   </button>
                 </li>
               </ul>

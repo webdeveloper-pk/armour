@@ -221,7 +221,7 @@ p {
 .hero-button {
   background: linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
   border-radius: 15px;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   transition: background 0.8s ease-in-out;
 }
 

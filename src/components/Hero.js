@@ -43,20 +43,23 @@ const Hero = () => {
             </div>
             <div
               className="flex flex-col md:flex-row items-center gap-x-4 gap-y-4 justify-center"
-              data-aos="zoom-in-up"
+              // data-aos="zoom-in-up"
             >
-              <a href="#tokenomics" target="_self">
+              <a href="#tokenomics" target="_self" data-aos="zoom-in-right">
                 <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
                   Tokenomics
                 </button>
               </a>
-              <a href="#roadmap-section" target="_self">
+              <a href="#roadmap-section" target="_self" data-aos="zoom-in-up">
                 <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
                   roadmap
                 </button>
               </a>
               {/* <a href="/"> */}
-              <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase">
+              <button
+                className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-10 uppercase"
+                data-aos="zoom-in-left"
+              >
                 app
               </button>
               {/* </a> */}

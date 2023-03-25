@@ -69,7 +69,10 @@ const NavbarHomepage = () => {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase">
+              <ul
+                className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase"
+                data-aos="zoom-in-down"
+              >
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <a href="/">
                     <div className="btn btn-one hover:text-light-blue header-item1">

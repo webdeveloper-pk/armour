@@ -665,12 +665,14 @@ p {
   > .ant-collapse-header:active {
   border: 1px solid #5b86e5;
 }
-/* 
-.ant-collapse-icon-position-end
-  > .ant-collapse-item
-  > .ant-collapse-header:hover {
+
+.ant-collapse-header {
+  border: 1px solid #0c0c0c;
+}
+
+.ant-collapse-item-active .ant-collapse-header {
   border: 1px solid #5b86e5;
-} */
+}
 
 /* footer */
 

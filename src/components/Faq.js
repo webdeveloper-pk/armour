@@ -47,7 +47,7 @@ const Faq = () => {
           <div className="">
             <Collapse
               ghost
-              // defaultActiveKey={["1"]}
+              defaultActiveKey={["1"]}
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (

@@ -47,7 +47,8 @@ const Faq = () => {
           <div className="">
             <Collapse
               ghost
-              defaultActiveKey={["1"]}
+              accordion
+              defaultActiveKey
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
@@ -69,7 +70,6 @@ const Faq = () => {
               <Panel
                 header=" Do I need KYC verification to use Armour Wallet?"
                 key="1"
-                className=""
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -79,31 +79,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="What is Armour Wallet, and how does it work?"
-                key="1"
-                className=""
+                key="2"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -116,32 +94,7 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
-              <Panel
-                header="How do I create Armour Wallet?"
-                key="1"
-                className=""
-              >
+              <Panel header="How do I create Armour Wallet?" key="3">
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
                     To create Armour Wallet, download App on your store or use
@@ -151,31 +104,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="What types of cryptocurrencies does Armour Wallet support?"
-                key="1"
-                className=""
+                key="4"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -184,31 +115,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="How do I send and receive cryptocurrency using Armour Wallet?"
-                key="1"
-                className=""
+                key="5"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -220,31 +129,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="What are seed phrases and private key, and how do I keep it safe?"
-                key="1"
-                className=""
+                key="6"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -257,31 +144,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="What is the nature of your transaction fees?"
-                key="1"
-                className=""
+                key="7"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs ">
@@ -292,31 +157,9 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
               <Panel
                 header="What happens if I lose access to my wallet?"
-                key="1"
-                className=""
+                key="8"
               >
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white text-xs">

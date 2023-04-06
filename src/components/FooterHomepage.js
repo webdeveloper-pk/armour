@@ -5,7 +5,7 @@ import FooterLinkArrow from "./common/FooterLinkArrow";
 const FooterHomepage = () => {
   return (
     <>
-      <footer className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 pb-6 xl:pb-6 homepage-container mx-auto">
+      <footer className="px-6 md:px-12 lg:px-16 pt-8 xl:pt-8 pb-6 xl:pb-6 homepage-container mx-auto footer-black-bg">
         <div className="w-[100%] xl:w-[95%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:text-left text-center">
           <div className="w-[100%] pt-0 lg:pt-12">
             <a
@@ -27,13 +27,16 @@ const FooterHomepage = () => {
               </div>
             </a>
             <nav className="list-none mb-6 md:mb-0">
-              <div className="mb-6 md:mb-12">
+              <div className="mb-3">
                 <p className="footer-description-text text-[13px] w-[100%] lg:w-[90%]">
-                  Armour Wallet is non-custodial,multi-chain, cutting-edge
-                  crypto wallet modelled to revolutionise traditional wallet
-                  systems through its ground-breaking solutions. Experience a
-                  new level of convenience in managing your cryptocurrencies all
-                  in one wallet.
+                  Armour Wallet is an innovative, non-custodial, multi-chain
+                  crypto wallet that leverages cutting-edge AI technology to
+                  revolutionize traditional wallet systems. With its
+                  ground-breaking solutions, Armour Wallet offers users a new
+                  level of convenience in managing their diverse cryptocurrency
+                  holdings securely within a single, user-friendly interface,
+                  empowering them to take control of their digital assets
+                  with confidence.
                 </p>
               </div>
               <div className="">
@@ -42,7 +45,9 @@ const FooterHomepage = () => {
                 </p>
                 <div className="flex justify-center md:justify-start gap-x-4">
                   <a
-                    href="/"
+                    href="https://t.me/ArmourWallet"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white  text-sm group stroke-white"
                   >
                     <svg
@@ -73,7 +78,9 @@ const FooterHomepage = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@Armourwallet"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white   text-sm group stroke-white"
                   >
                     <svg
@@ -104,7 +111,9 @@ const FooterHomepage = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="/#"
+                    // target="_blank"
+                    rel="noreferrer"
                     className="text-white   text-sm group stroke-white"
                   >
                     <svg
@@ -123,7 +132,9 @@ const FooterHomepage = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="/#"
+                    // target="_blank"
+                    rel="noreferrer"
                     className="text-white   text-sm group stroke-white"
                   >
                     <svg
@@ -142,7 +153,9 @@ const FooterHomepage = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://twitter.com/Armourwallet"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white   text-sm group stroke-white"
                   >
                     <svg
@@ -150,30 +163,32 @@ const FooterHomepage = () => {
                       height="28"
                       viewBox="0 0 37 37"
                       fill="none"
-                      className="group-hover:stroke-blue-400"
                       xmlns="http://www.w3.org/2000/svg"
+                      className="group-hover:stroke-blue-400"
                     >
-                      <g clipPath="url(#clip0_0_567)">
+                      <g clipPath="url(#clip0_1_524)">
                         <path
-                          d="M23.4145 9.15069C22.2672 9.1505 21.1658 9.60069 20.3471 10.4044C19.5285 11.2081 19.0581 12.301 19.0371 13.4481L18.9948 15.8254C18.9924 15.9531 18.9629 16.0787 18.9085 16.1942C18.854 16.3097 18.7757 16.4123 18.6788 16.4954C18.5819 16.5785 18.4685 16.6402 18.3461 16.6764C18.2236 16.7126 18.0949 16.7225 17.9684 16.7054L15.6122 16.3854C12.5118 15.9628 9.54125 14.5348 6.69144 12.1605C5.7888 17.1567 7.55182 20.6179 11.7979 23.2881L14.4348 24.9454C14.5601 25.0241 14.6642 25.1324 14.738 25.2607C14.8118 25.3889 14.853 25.5333 14.8581 25.6812C14.8631 25.8291 14.8319 25.976 14.7671 26.109C14.7022 26.242 14.6058 26.3572 14.4862 26.4443L12.0831 28.1997C13.5126 28.2888 14.8696 28.2254 15.9956 28.002C23.1171 26.5801 27.8522 21.2216 27.8522 12.3824C27.8522 11.6609 26.3246 9.15069 23.4145 9.15069ZM16.0182 13.3922C16.0446 11.9372 16.4996 10.5223 17.3262 9.32461C18.1529 8.12695 19.3145 7.19978 20.6657 6.65917C22.0168 6.11856 23.4973 5.98855 24.922 6.28541C26.3467 6.58226 27.6521 7.2928 28.6748 8.32805C29.748 8.3205 30.6613 8.5922 32.7035 7.35447C32.1979 9.82994 31.9488 10.9047 30.8711 12.3824C30.8711 23.9175 23.7813 29.5265 16.5873 30.962C11.6545 31.9462 4.48163 30.3296 2.42578 28.1831C3.47333 28.1016 7.72993 27.6443 10.1903 25.8435C8.1088 24.4714 -0.176483 19.596 5.26805 6.48805C7.82352 9.4722 10.4152 11.5039 13.0416 12.5816C14.7896 13.2986 15.2182 13.2835 16.0197 13.3937L16.0182 13.3922Z"
+                          d="M23.4145 9.15069C22.2672 9.1505 21.1658 9.60069 20.3471 10.4044C19.5285 11.2081 19.0581 12.301 19.0371 13.4481L18.9948 15.8254C18.9924 15.9531 18.9629 16.0787 18.9085 16.1942C18.854 16.3097 18.7758 16.4123 18.6788 16.4954C18.5819 16.5785 18.4685 16.6402 18.3461 16.6764C18.2236 16.7126 18.0949 16.7225 17.9684 16.7054L15.6122 16.3854C12.5118 15.9628 9.54125 14.5348 6.69144 12.1605C5.7888 17.1567 7.55182 20.6179 11.7979 23.2881L14.4348 24.9454C14.5601 25.0241 14.6642 25.1324 14.738 25.2607C14.8118 25.3889 14.853 25.5333 14.8581 25.6812C14.8631 25.8291 14.8319 25.976 14.7671 26.109C14.7022 26.242 14.6058 26.3572 14.4862 26.4443L12.0831 28.1997C13.5126 28.2888 14.8696 28.2254 15.9956 28.002C23.1171 26.5801 27.8522 21.2216 27.8522 12.3824C27.8522 11.6609 26.3247 9.15069 23.4145 9.15069V9.15069ZM16.0182 13.3922C16.0446 11.9372 16.4996 10.5223 17.3262 9.32461C18.1529 8.12695 19.3145 7.19978 20.6657 6.65917C22.0168 6.11856 23.4973 5.98855 24.922 6.28541C26.3467 6.58226 27.6521 7.2928 28.6748 8.32805C29.748 8.3205 30.6613 8.5922 32.7035 7.35447C32.1979 9.82994 31.9488 10.9047 30.8711 12.3824C30.8711 23.9175 23.7813 29.5265 16.5873 30.962C11.6545 31.9462 4.48163 30.3296 2.42578 28.1831C3.47333 28.1016 7.72993 27.6443 10.1903 25.8435C8.1088 24.4714 -0.176483 19.596 5.26805 6.48805C7.82352 9.4722 10.4152 11.5039 13.0416 12.5816C14.7896 13.2986 15.2182 13.2835 16.0197 13.3937L16.0182 13.3922Z"
                           fill="white"
                           className="group-hover:fill-blue-400"
                         />
                       </g>
                       <defs>
-                        <clipPath id="clip0_0_567">
+                        <clipPath id="clip0_1_524">
                           <rect
-                            width="28"
-                            height="28"
+                            width="36.2264"
+                            height="36.2264"
                             fill="white"
-                            transform="translate(0.320801 0.773438)"
+                            transform="translate(0.320312 0.773438)"
                           />
                         </clipPath>
                       </defs>
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/officialarmourwallet"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-white   text-sm group stroke-white"
                   >
                     <svg
@@ -214,7 +229,7 @@ const FooterHomepage = () => {
             <nav className="list-none mb-6 lg:mb-0 uppercase flex flex-col items-center md:items-start gap-y-4">
               <li>
                 <a
-                  href="/"
+                  href="/#"
                   className="flex items-center gap-x-3 text-white text-[13px]"
                 >
                   <span>
@@ -225,7 +240,7 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/#"
                   className="flex items-center gap-x-3 text-white   text-[13px]"
                 >
                   <span>
@@ -236,7 +251,7 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/#"
                   className="flex items-center gap-x-3 text-white   text-[13px]"
                 >
                   <span>
@@ -269,24 +284,13 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/#"
                   className="flex items-center gap-x-3 text-white   text-[13px]"
                 >
                   <span>
                     <FooterLinkArrow />
                   </span>
                   white papers
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="flex items-center gap-x-3 text-white   text-[13px]"
-                >
-                  <span>
-                    <FooterLinkArrow />
-                  </span>
-                  social links
                 </a>
               </li>
             </nav>
@@ -298,7 +302,9 @@ const FooterHomepage = () => {
             <nav className="list-none mb-6 lg:mb-0 uppercase flex flex-col items-center md:items-start">
               <li>
                 <a
-                  href="/"
+                  href="https://t.me/ArmourWallet"
+                  target="_blank"
+                  rel="noreferrer"
                   className="flex items-center gap-x-3 text-white   text-[13px] mb-5"
                 >
                   <span>
@@ -330,32 +336,30 @@ const FooterHomepage = () => {
                   Telegram
                 </a>
               </li>
-              <li>
+              <li className="flex gap-x-3">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_0_550)">
+                    <path
+                      d="M4.12502 4.125H28.875C29.2397 4.125 29.5894 4.26987 29.8473 4.52773C30.1052 4.78559 30.25 5.13533 30.25 5.5V27.5C30.25 27.8647 30.1052 28.2144 29.8473 28.4723C29.5894 28.7301 29.2397 28.875 28.875 28.875H4.12502C3.76034 28.875 3.41061 28.7301 3.15274 28.4723C2.89488 28.2144 2.75002 27.8647 2.75002 27.5V5.5C2.75002 5.13533 2.89488 4.78559 3.15274 4.52773C3.41061 4.26987 3.76034 4.125 4.12502 4.125ZM27.5 9.95225L16.599 19.7148L5.50002 9.922V26.125H27.5V9.95225ZM6.20264 6.875L16.5839 16.0352L26.8153 6.875H6.20264Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_550">
+                      <rect width="33" height="33" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
                 <a
                   href="mailto:Contact@armourwallet.app"
-                  className=" flex items-center gap-x-3 text-white   text-[13px]"
+                  className=" flex items-center gap-x-3 text-white  text-[13px]"
                 >
-                  <span>
-                    <svg
-                      width="28"
-                      height="28"
-                      viewBox="0 0 33 33"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_0_550)">
-                        <path
-                          d="M4.12502 4.125H28.875C29.2397 4.125 29.5894 4.26987 29.8473 4.52773C30.1052 4.78559 30.25 5.13533 30.25 5.5V27.5C30.25 27.8647 30.1052 28.2144 29.8473 28.4723C29.5894 28.7301 29.2397 28.875 28.875 28.875H4.12502C3.76034 28.875 3.41061 28.7301 3.15274 28.4723C2.89488 28.2144 2.75002 27.8647 2.75002 27.5V5.5C2.75002 5.13533 2.89488 4.78559 3.15274 4.52773C3.41061 4.26987 3.76034 4.125 4.12502 4.125ZM27.5 9.95225L16.599 19.7148L5.50002 9.922V26.125H27.5V9.95225ZM6.20264 6.875L16.5839 16.0352L26.8153 6.875H6.20264Z"
-                          fill="white"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_0_550">
-                          <rect width="33" height="33" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </span>
                   Contact@armourwallet.app
                 </a>
               </li>
@@ -363,7 +367,7 @@ const FooterHomepage = () => {
           </div>
         </div>
       </footer>
-      <div className="text-center flex justify-center items-center px-6 md:px-12 lg:px-16 pt-4 md:pt-12 pb-6 xl:pb-6 homepage-container mx-auto text-xs md:text-sm text-white uppercase">
+      <div className="text-center flex justify-center items-center px-6 md:px-12 lg:px-16 pt-6 pb-4 homepage-container mx-auto text-xs md:text-sm text-white uppercase">
         <p>
           Copyright © 2023 Created by
           <span className="footer-text px-1">Armourwallet</span>

@@ -10,40 +10,44 @@ const TokenomicsTab = () => {
             <Section5Card
               color="#9E03FD"
               text="Public Sale Token"
-              percentage="25%"
+              percentage="30%"
             />
           </div>
           <div data-aos="zoom-in">
-            <Section5Card color="#FD03E4" text="Liquidity" percentage="20%" />
+            <Section5Card color="#FD03E4" text="Liquidity" percentage="18%" />
           </div>
           <div data-aos="zoom-in">
             <Section5Card
               color="#FD033F"
               text="Exchange Listings"
-              percentage="18%"
+              percentage="15%"
             />
           </div>
           <div data-aos="zoom-in">
             <Section5Card
               color="#B7B1FF"
               text="Initial Burn"
-              percentage="17%"
+              percentage="07%"
             />
           </div>
           <div data-aos="zoom-in">
-            <Section5Card color="#05FF00" text="Marketing" percentage="10%" />
+            <Section5Card
+              color="#05FF00"
+              text="Future Partnership"
+              percentage="10%"
+            />
           </div>
           <div data-aos="zoom-in">
             <Section5Card
               color="#03B2FD"
               text="Wallet Update and Maintenance"
-              percentage="05%"
+              percentage="15%"
             />
           </div>
           <div data-aos="zoom-in">
             <Section5Card
               color="#CCFF00"
-              text="Refer and Earn Scheme"
+              text="Referral Reserve"
               percentage="2.5%"
             />
           </div>
@@ -51,7 +55,7 @@ const TokenomicsTab = () => {
             <Section5Card
               color="#03E1FF"
               text="Ambassadorial Programme"
-              percentage="2.5%"
+              percentage="02%"
             />
           </div>
         </div>

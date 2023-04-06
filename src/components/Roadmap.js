@@ -4,20 +4,16 @@ import dot from "../assets/images/section3-dot.png";
 
 const Roadmap = () => {
   return (
-    <section className="w-full py-12 xl:py-28">
-      <div
-        className="px-6 md:px-16 homepage-container mx-auto"
-        id="roadmap-section"
-      >
-        <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-xl" data-aos="fade-right">
-            03
-          </div>
+    <section
+      className="w-full pt-12 xl:pt-28 pb-12 xl:pb-40"
+      id="roadmap-section"
+    >
+      <div className="px-6 md:px-16 homepage-container mx-auto">
+        <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
           <div className="text-[26px] font-bold" data-aos="zoom-in-down">
             <span className="sections-title-color text-[26px]">Roadmap </span>&
             Future Development
           </div>
-          <div></div>
         </div>
         <div className="uppercase relative">
           <div className="absolute left-[50%] hidden md:block">
@@ -231,6 +227,9 @@ const Roadmap = () => {
                   <li>In-wallet Bridge</li>
                   <li>Refer and Earn Scheme</li>
                   <li>CEX Listings</li>
+                  <li>Launchpad Release</li>
+                  <li> Global Marketing Campaigns</li>
+                  <li> Further Ecosystem Expansion</li>
                 </ul>
               </div>
             </div>

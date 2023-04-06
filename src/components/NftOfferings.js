@@ -35,9 +35,14 @@ const NftOfferings = () => {
             >
               Experience the future of digital ownership with our NFT
               marketplace! We offer a wide range of unique and one-of-a-kind
-              NFTs that are sure to capture your imagination. From digital art
-              and music to rare collectibles and virtual real estate, our
-              marketplace has something for everyone. Plus, with our
+              NFTs that are sure to capture your imagination.
+            </span>
+            <span
+              className="mb-7 w-full text-[14px] md:text-[17px] nft-description xl:w-[100%] text-center md:text-left"
+              data-aos="fade-up-left"
+            >
+              From digital art and music to rare collectibles and virtual real
+              estate, our marketplace has something for everyone. Plus, with our
               cutting-edge blockchain technology, you can be confident that your
               NFTs are secure and protected from fraud or duplication. Whether
               you're an artist, a collector, or just curious about the world of

@@ -21,17 +21,13 @@ const SectionTwo = () => {
         <img src={bg2} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-center md:items-start lg:items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-xl" data-aos="fade-right">
-            02
-          </div>
+        <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
           <div className="text-[26px] font-bold" data-aos="zoom-in-down">
             That’s why
             <span className="sections-title-color pl-2 text-[26px] font-bold">
               we are best!
             </span>
           </div>
-          <div></div>
         </div>
         <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 px-2 md:px-12 xl:px-20">
           <div>

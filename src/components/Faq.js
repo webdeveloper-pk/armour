@@ -12,32 +12,13 @@ const Faq = () => {
       <div className="faq-bg-postion">
         <img src={bg} alt="hero-bg" className="w-[100vw] h-auto" />
       </div>
-      <div className="px-6 md:px-12 lg:px-16 pb-12 xl:pb-16 homepage-container mx-auto">
-        <div className="flex justify-center block md:hidden mb-6 md:mb-0">
+      <div className="px-6 md:px-12 lg:px-16 pb-12 xl:pb-24 homepage-container mx-auto">
+        <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
           <div
-            className="section-title-count text-lg text-white"
-            data-aos="fade-right"
+            className="text-2xl font-semibold sections-title-color md:-ml-[16px]"
+            data-aos="zoom-in-down"
           >
-            06
-          </div>
-        </div>
-        <div className="relative">
-          <div className="flex justify-start hidden md:block absolute left-0 top-[-50%]">
-            <div
-              className="section-title-count text-lg text-white"
-              data-aos="fade-right"
-            >
-              06
-            </div>
-          </div>
-          <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
-            <div
-              className="text-2xl font-semibold sections-title-color md:-ml-[16px]"
-              data-aos="zoom-in-down"
-            >
-              Faqs
-            </div>
-            <div></div>
+            Faqs
           </div>
         </div>
         <div

@@ -8,29 +8,19 @@ const Tokenomics = () => {
         className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 homepage-container mx-auto"
         id="tokenomics"
       >
-        <div className="flex flex-col md:flex-row justify-between items-center md:gap-x-4 lg:gap-x-0 gap-y-6 text-center md:text-left text-white uppercase">
-          <div className="section-title-count text-xl" data-aos="fade-right">
-            05
-          </div>
+        <div className="flex flex-col justify-center items-center text-center md:text-left text-white uppercase">
           <div
             className="text-[26px] font-bold sections-title-color"
             data-aos="zoom-in-down"
           >
             Tokenomics
           </div>
-          <div></div>
-        </div>
-        <div className="-mt-2 flex flex-col md:flex-row justify-between items-center">
-          <div className="section5-title-count text-lg text-transparent">
-            05
-          </div>
           <p
-            className="text-white text-sm text-center -mt-6 md:mt-0"
+            className="text-white text-sm text-center mt-4"
             data-aos="zoom-in-up"
           >
             Armour Wallet tokenomics is structured to ensure its sustainability.
           </p>
-          <div></div>
         </div>
         <div className="mt-8 mb-4 lg:mb-6 lg:mt-12 flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-y-6 px-2 md:px-12 xl:px-24">
           <div className="w-full md:w-[60%] lg:w-[60%] xl:w-[45%] relative lg:-ml-20">
@@ -72,8 +62,10 @@ const Tokenomics = () => {
                   <p className="text-sm md:text-base mb-3">$AWT</p>
                   <p className="name text-xs md:text-sm mb-1">Total Supply:</p>
                   <p className="text-sm md:text-base mb-3">1,000,000,000</p>
-                  <p className="name text-xs md:text-sm  mb-1">Address</p>
-                  <p className="text-sm md:text-base">-</p>
+                  <p className="name text-xs md:text-sm  mb-1">
+                    Official Contract Address
+                  </p>
+                  <p className="text-sm md:text-base">coming soon</p>
                 </div>
                 <div className="text-white">
                   <p className="text-xs md:text-sm  mb-1">Network:</p>

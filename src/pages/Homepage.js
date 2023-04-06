@@ -20,6 +20,7 @@ const Homepage = () => {
       duration: 2500,
     });
   }, []);
+
   return (
     <>
       <div className="sections-bg overflow-body">

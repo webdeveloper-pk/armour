@@ -34,7 +34,7 @@ const SectionOne = () => {
             Will be Game-Changing?
           </div>
         </div>
-        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8 px-2 md:px-12 xl:px-28">
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8 px-2 md:px-2 xl:px-28">
           <div className="section1-card-inner">
             <Section1Card
               src={technology}

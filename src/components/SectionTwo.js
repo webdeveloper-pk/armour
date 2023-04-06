@@ -29,7 +29,7 @@ const SectionTwo = () => {
             </span>
           </div>
         </div>
-        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 px-2 md:px-12 xl:px-20">
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 px-2 md:px-12 lg:px-2 xl:px-20">
           <div>
             <Section2Card
               src={community}

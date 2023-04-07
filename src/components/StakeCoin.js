@@ -13,7 +13,7 @@ const StakeCoin = () => {
           <div className="w-[100%] lg:w-[60%] flex flex-col md:items-start md:text-left items-center text-center z-50">
             <h1
               className="w-full xl:w-[100%] text-2xl xl:text-[29px] mb-4 font-bold text-light-white uppercase"
-              data-aos="fade-down-right"
+              // data-aos="fade-down-right"
               style={{ lineHeight: "40px" }}
             >
               <span className="pr-2 sections-title-color">Stake your coin</span>
@@ -21,7 +21,7 @@ const StakeCoin = () => {
             </h1>
             <span
               className="mb-7 w-full  text-[14px] md:text-[17px] nft-description xl:w-[100%]"
-              data-aos="fade-up-right"
+              // data-aos="fade-up-right"
             >
               Looking for a smart and reliable way to grow your cryptocurrency
               holdings? Stake your coin with us and start earning passive income
@@ -40,7 +40,7 @@ const StakeCoin = () => {
               src={hero1}
               alt="hero"
               className="w-[75%] md:w-[50%] lg:w-[80%] xl:w-[85%] h-auto"
-              data-aos="zoom-in-left"
+              // data-aos="zoom-in-left"
             />
           </div>
         </div>

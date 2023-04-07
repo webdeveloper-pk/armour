@@ -50,7 +50,7 @@ const NavbarHomepage = () => {
                 <div className="hidden lg:block flex justify-center items-center ml-8 xl:ml-20 lg:mt-3">
                   <ul
                     className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase"
-                    data-aos="zoom-in-down"
+                    // data-aos="zoom-in-down"
                   >
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
                       <a href="/#">
@@ -153,7 +153,7 @@ const NavbarHomepage = () => {
                   <button
                     onClick={() => setNavbar(!navbar)}
                     className="navbar-btn1 text-white text-sm md:text-xs xl:text-[15px] font-semibold py-3 lg:py-3 xl:py-4 px-7 lg:px-5 xl:px-7 lg:mt-1 uppercase headerRightBtn"
-                    data-aos="fade-left"
+                    // data-aos="fade-left"
                   >
                     <span className="navbar-btn2">Launching Soon</span>
                   </button>
@@ -236,7 +236,7 @@ const NavbarHomepage = () => {
                 <div className="flex flex-col justify-center items-center ">
                   <ul
                     className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase"
-                    data-aos="zoom-in-down"
+                    // data-aos="zoom-in-down"
                   >
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
                       <a href="/">
@@ -286,7 +286,7 @@ const NavbarHomepage = () => {
                   <button
                     onClick={() => setNavbar(!navbar)}
                     className="navbar-btn1 text-white text-sm md:text-xs xl:text-[15px] font-semibold py-3 lg:py-3 xl:py-4 px-7 lg:px-5 xl:px-7 lg:mt-1 uppercase headerRightBtn"
-                    data-aos="fade-left"
+                    // data-aos="fade-left"
                   >
                     <span className="navbar-btn2">Launching Soon</span>
                   </button>

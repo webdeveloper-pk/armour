@@ -1,10 +1,10 @@
 import React from "react";
 
-const Section1Card = ({ src, title, description, dataAos }) => {
+const Section1Card = ({ src, title, description }) => {
   return (
     <div
       className="section1-card flex flex-col items-center px-5 pt-6 pb-8 text-center z-50 overflow-hidden"
-      data-aos={dataAos}
+      // data-aos={dataAos}
     >
       <div className="bg-carbon-black rounded-xl w-[90px] h-[90px] flex justify-center items-center">
         <img src={src} alt="logo" width="38px" height="auto" />

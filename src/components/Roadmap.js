@@ -10,7 +10,10 @@ const Roadmap = () => {
     >
       <div className="px-6 md:px-16 homepage-container mx-auto">
         <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
-          <div className="text-[26px] font-bold" data-aos="zoom-in-down">
+          <div
+            className="text-[26px] font-bold"
+            //  data-aos="zoom-in-down"
+          >
             <span className="sections-title-color text-[26px]">Roadmap </span>&
             Future Development
           </div>
@@ -32,7 +35,7 @@ const Roadmap = () => {
                 </div>
                 <p
                   className="text-white text-lg uppercase font-bold"
-                  data-aos="zoom-in"
+                  // data-aos="zoom-in"
                 >
                   Phase 01
                 </p>
@@ -48,14 +51,14 @@ const Roadmap = () => {
                 </div>
                 <p
                   className="text-white text-[17px] font-bold uppercase"
-                  data-aos="zoom-in"
+                  // data-aos="zoom-in"
                 >
                   Phase 01
                 </p>
               </div>
               <div
                 className="section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 md:px-3 lg:px-6"
-                data-aos="zoom-in-left"
+                // data-aos="zoom-in-left"
               >
                 <ul className="list-disc pl-5 md:pl-5 lg:pl-5">
                   <li>Armour Wallet Ideation</li>
@@ -76,7 +79,10 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                <p
+                  className="text-white text-lg uppercase"
+                  //  data-aos="zoom-in"
+                >
                   Phase 02
                 </p>
               </div>
@@ -85,7 +91,7 @@ const Roadmap = () => {
           <div className="md:mt-8 lg:mt-16 flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div
               className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
-              data-aos="zoom-in-right"
+              // data-aos="zoom-in-right"
             >
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                 <li>Brand Unveiling</li>
@@ -118,7 +124,10 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                <p
+                  className="text-white text-lg uppercase"
+                  //  data-aos="zoom-in"
+                >
                   Phase 03
                 </p>
               </div>
@@ -133,14 +142,14 @@ const Roadmap = () => {
                 </div>
                 <p
                   className="text-white text-[17px] uppercase"
-                  data-aos="zoom-in"
+                  // data-aos="zoom-in"
                 >
                   Phase 03
                 </p>
               </div>
               <div
                 className=" section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6"
-                data-aos="zoom-in-left"
+                // data-aos="zoom-in-left"
               >
                 <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                   <li>Release Armour Wallet Beta</li>
@@ -161,7 +170,10 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                <p
+                  className="text-white text-lg uppercase"
+                  // data-aos="zoom-in"
+                >
                   Phase 04
                 </p>
               </div>
@@ -170,7 +182,7 @@ const Roadmap = () => {
           <div className="md:mt-8 lg:mt-16 xl:mt-[66px] flex flex-row justify-between px-2 md:px-0 xl:px-32">
             <div
               className="w-[100%] md:w-[47%] section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6 mt-6 md:mt-0"
-              data-aos="zoom-in-right"
+              // data-aos="zoom-in-right"
             >
               <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                 <li>Website V2 Release</li>
@@ -197,7 +209,10 @@ const Roadmap = () => {
                 <div className="">
                   <img src={dot} alt="dot" width="20px" />
                 </div>
-                <p className="text-white text-lg uppercase" data-aos="zoom-in">
+                <p
+                  className="text-white text-lg uppercase"
+                  // data-aos="zoom-in"
+                >
                   Phase 05
                 </p>
               </div>
@@ -212,14 +227,14 @@ const Roadmap = () => {
                 </div>
                 <p
                   className="text-white text-[17px] uppercase"
-                  data-aos="zoom-in"
+                  // data-aos="zoom-in"
                 >
                   Phase 05
                 </p>
               </div>
               <div
                 className="section3-custom-button text-white text-sm md:text-[13px] lg:text-sm pt-4 pb-2 px-6"
-                data-aos="zoom-in-left"
+                // data-aos="zoom-in-left"
               >
                 <ul className="list-disc pl-5 md:pl-3 lg:pl-5">
                   <li>Update of Whitepaper and Roadmap</li>

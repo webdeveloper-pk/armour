@@ -16,7 +16,7 @@ const Faq = () => {
         <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
           <div
             className="text-2xl font-semibold sections-title-color md:-ml-[16px]"
-            data-aos="zoom-in-down"
+            // data-aos="zoom-in-down"
           >
             Faqs
           </div>

@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-[100%] lg:w-[53%] xl:w-[55%] flex flex-col md:items-start md:text-left items-center text-center z-50">
             <h1
               className="hidden xl:block text-2xl xl:text-[32px] mb-4 font-bold text-light-white uppercase"
-              data-aos="zoom-in-down"
+              // data-aos="zoom-in-down"
             >
               Disrupting
               <span className="pl-2 heading-color sections-title-color">
@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             <h1
               className="block xl:hidden text-2xl xl:text-[31px] mb-4 font-bold text-light-white uppercase"
-              data-aos="zoom-in-down"
+              // data-aos="zoom-in-down"
             >
               Disrupting
               <span className="px-2 heading-color sections-title-color">
@@ -34,7 +34,7 @@ const Hero = () => {
             </h1>
             <div
               className="mb-7 w-[95%] md:w-[100%] xl:w-[85%] 2xl:w-[78%] text-sm md:text-[16px] hero-description font-light"
-              data-aos="zoom-in-right"
+              // data-aos="zoom-in-right"
             >
               Armour Wallet is an innovative, non-custodial, multi-chain crypto
               wallet that leverages cutting-edge AI technology to revolutionize
@@ -48,7 +48,11 @@ const Hero = () => {
               className="flex flex-col md:flex-row items-center gap-x-4 gap-y-4 justify-center"
               // data-aos="zoom-in-up"
             >
-              <a href="/#" target="_self" data-aos="zoom-in-right">
+              <a
+                href="/#"
+                target="_self"
+                //  data-aos="zoom-in-right"
+              >
                 <button className="hero-button text-white text-xs md:text-sm font-semibold py-3 px-6 uppercase">
                   BUY PREsale Now
                 </button>
@@ -56,7 +60,7 @@ const Hero = () => {
               <a
                 href=" https://t.me/ArmourWallet"
                 target="_blank"
-                data-aos="zoom-in-up"
+                // data-aos="zoom-in-up"
               >
                 <button className="flex items-center gap-x-2 hero-button2 text-white text-xs md:text-sm font-semibold py-2.5 px-4 uppercase">
                   <span>
@@ -83,7 +87,7 @@ const Hero = () => {
               src={hero1}
               alt="hero"
               className="w-[90%] md:w-[70%] lg:w-[90%] xl:w-[100%] h-auto"
-              data-aos="flip-right"
+              // data-aos="flip-right"
             />
           </div>
         </div>

@@ -11,13 +11,13 @@ const Tokenomics = () => {
         <div className="flex flex-col justify-center items-center text-center md:text-left text-white uppercase">
           <div
             className="text-[26px] font-bold sections-title-color"
-            data-aos="zoom-in-down"
+            // data-aos="zoom-in-down"
           >
             Tokenomics
           </div>
           <p
             className="text-white text-sm text-center mt-4"
-            data-aos="zoom-in-up"
+            // data-aos="zoom-in-up"
           >
             Armour Wallet tokenomics is structured to ensure its sustainability.
           </p>
@@ -30,26 +30,29 @@ const Tokenomics = () => {
                 alt="progress-bar"
                 className="w-[100%] lg:w-[80%] xl:w-[78%]"
                 height="auto"
-                data-aos="zoom-out-up"
+                // data-aos="zoom-out-up"
               />
             </div>
             <div className="progressbar-position text-center">
               <p
                 className="total-supply text-[15px] md:text-[18px]"
-                data-aos="zoom-out-right"
+                // data-aos="zoom-out-right"
               >
                 Total Supply
               </p>
               <h1
                 className="text-white font-bold text-2xl md:text-3xl mt-1"
-                data-aos="zoom-out-left"
+                // data-aos="zoom-out-left"
               >
                 1,000,000,000
               </h1>
             </div>
           </div>
           <div className="w-full lg:w-[60%] lg:pl-12">
-            <div className="flex flex-col w-full lg:w-[70%]" data-aos="zoom-in">
+            <div
+              className="flex flex-col w-full lg:w-[70%]"
+              // data-aos="zoom-in"
+            >
               <div className="custom-border">
                 <p className="name text-xs md:text-sm mb-1">Name:</p>
                 <p className="text-white text-sm md:text-base">

@@ -1,5 +1,5 @@
 import React from "react";
-import AOS from "aos";
+// import AOS from "aos";
 import Hero from "../components/Hero";
 import NavbarHomepage from "../components/common/NavbarHomepage";
 import SectionOne from "../components/SectionOne";
@@ -15,11 +15,11 @@ import TokenomicsTab from "../components/TokenomicsTabs";
 import FooterHomepage from "../components/FooterHomepage";
 
 const Homepage = () => {
-  React.useEffect(() => {
-    AOS.init({
-      duration: 2500,
-    });
-  }, []);
+  // React.useEffect(() => {
+  //   AOS.init({
+  //     duration: 2500,
+  //   });
+  // }, []);
 
   return (
     <>

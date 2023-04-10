@@ -29,15 +29,15 @@ const Faq = () => {
             <Collapse
               ghost
               accordion
-              defaultActiveKey="null"
+              defaultActiveKey={["1"]}
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
-                  <div className="flex justify-end pr-2 md:pr-8">
+                  <div className="pr-0 md:pr-2 lg:pr-6">
                     <img src={dropup} alt="dropup" width="12px" height="12px" />
                   </div>
                 ) : (
-                  <div className="flex justify-end pr-2 md:pr-8">
+                  <div className="pr-0 md:pr-2 lg:pr-6">
                     <img
                       src={dropdown}
                       alt="dropdown"
@@ -53,7 +53,7 @@ const Faq = () => {
                 key="1"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     No! Armour Wallet prioritizes your privacy and anonymousness
                     and hence doesn’t require any form of profile or identity
                     verification for our users.
@@ -65,7 +65,7 @@ const Faq = () => {
                 key="2"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Armour Wallet is a digital wallet that allows you to
                     securely store, send, and receive cryptocurrencies. It works
                     by generating a unique contract address and private key for
@@ -77,7 +77,7 @@ const Faq = () => {
               </Panel>
               <Panel header="How do I create Armour Wallet?" key="3">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     To create Armour Wallet, download App on your store or use
                     our web wallet service. Click on create wallet and follow
                     the instructions provided to create a wallet, and be sure to
@@ -90,7 +90,7 @@ const Faq = () => {
                 key="4"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Armour Wallet supports all commonplace cryptocurrencies and
                     some other unique digital assets.
                   </div>
@@ -101,7 +101,7 @@ const Faq = () => {
                 key="5"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     To send cryptocurrency, you will need to enter the
                     recipient’s contract address and the amount of
                     cryptocurrency that you want to send. To receive
@@ -115,7 +115,7 @@ const Faq = () => {
                 key="6"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     A private key is a secret code that allows you to access
                     your assets in Armour Wallet. It is important to keep your
                     private key safe and secure, as anyone who has access to it
@@ -130,7 +130,7 @@ const Faq = () => {
                 key="7"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs ">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     The fees charged for transactions may vary depending on the
                     specific cryptocurrency and the current network conditions.
                     Be assured that we offer the most competitive fees
@@ -143,7 +143,7 @@ const Faq = () => {
                 key="8"
               >
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white text-xs">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     If you lose access to your wallet or forget your private key
                     and seed phrase, you may not be able to access your funds.
                     It is important to keep your private key and seed phrase

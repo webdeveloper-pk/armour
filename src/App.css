@@ -24,6 +24,26 @@ p {
 
 /* header */
 
+header {
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background: transparent;
+  /* animation magic */
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  z-index: 9999;
+  top: 0;
+  position: fixed;
+}
+
+.shrink {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #0c0c0c;
+}
+
 .navbar-btn1 {
   position: relative;
   transition: all 1.5s;
@@ -619,73 +639,57 @@ p {
   }
 }
 
-.ant-collapse > .ant-collapse-item:last-child,
+/* new */
+
 .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
   border-radius: 16px;
 }
 
-.ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header {
+.ant-collapse-header {
   border-radius: 16px;
-  background: rgba(80, 80, 80, 0.16);
   margin-bottom: 20px;
+  background: rgba(80, 80, 80, 0.16);
   backdrop-filter: blur(10px);
+  color: #ffffff !important;
+  font-size: 14px;
+  padding: 26px !important;
 }
 
-.ant-collapse
-  > .ant-collapse-item
-  > .ant-collapse-header
-  .ant-collapse-header-text {
-  color: #ffffff;
-  font-size: 15px;
-  padding-left: 12px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.ant-collapse-ghost .ant-collapse-item .ant-collapse-content {
+.ant-collapse-content {
   padding-left: 48px;
   padding-right: 48px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 319px) {
-  .ant-collapse
-    > .ant-collapse-item
-    > .ant-collapse-header
-    .ant-collapse-header-text {
-    font-size: 12px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 6px;
+@media screen and (max-width: 767px) and (min-width: 0px) {
+  .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+    border-radius: 16px;
   }
 
-  .ant-collapse-ghost .ant-collapse-item .ant-collapse-content {
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+  .ant-collapse-header {
+    font-size: 13px;
+    padding: 24px !important;
+  }
+
+  .ant-collapse-content {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
-.ant-collapse-icon-position-end
-  > .ant-collapse-item
-  > .ant-collapse-header:focus {
-  border: 1px solid #5b86e5;
+.ant-collapse-item > .ant-collapse-header:focus {
+  border: 0.3px solid #5b86e5;
 }
 
-.ant-collapse-icon-position-end
-  > .ant-collapse-item
-  > .ant-collapse-header:active {
-  border: 1px solid #5b86e5;
+.ant-collapse-item > .ant-collapse-header:active {
+  border: 0.3px solid #5b86e5;
 }
 
 .ant-collapse-header {
-  border: 1px solid #0c0c0c;
+  border: 0.3px solid #0c0c0c;
 }
 
 .ant-collapse-item-active .ant-collapse-header {
-  border: 1px solid #5b86e5;
+  border: 0.3px solid #5b86e5;
 }
 
 /* footer */

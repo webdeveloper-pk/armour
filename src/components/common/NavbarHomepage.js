@@ -3,31 +3,25 @@ import logo from "../../assets/images/header-logo.png";
 
 const NavbarHomepage = () => {
   const [navbar, setNavbar] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset ||
-        document.documentElement.scrollTop ||
-        document.body.scrollTop ||
-        0;
-      setIsScrolled(scrollTop > 0);
+      if (document.documentElement.scrollTop > 100) {
+        document.querySelector("header").classList.add("shrink");
+      } else {
+        document.querySelector("header").classList.remove("shrink");
+      }
     };
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div>
-      <nav
-        className={`hidden lg:block fixed top-0 w-full z-[999] text-white px-6 md:px-12 lg:px-12 homepage-container mx-auto ${
-          isScrolled ? "bg-black" : "bg-transparent"
-        } transition duration-300 ease-in-out`}
-      >
-        <div className="mx-auto lg:flex justify-between lg:items-start pt-8 md:pt-8 pb-6">
+      <header className="hidden lg:block w-full z-[999] text-white px-6 md:px-12 lg:px-12 homepage-container mx-auto">
+        <div className="mx-auto lg:flex justify-between lg:items-start">
           <div>
             <div className="flex flex-row justify-between items-center w-full">
               <div
@@ -162,7 +156,7 @@ const NavbarHomepage = () => {
             </div>
           </div>
         </div>
-      </nav>
+      </header>
 
       {/* mobile nav */}
 

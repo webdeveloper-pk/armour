@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import SupporterCard from "./SupporterCard";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bscscan from "../../assets/images/section4-bscscan.png";
-import dexview from "../../assets/images/section4-dexview.png";
-import coinmarketcap from "../../assets/images/section4-coinmarketcap.png";
+import pinksale from "../../assets/images/section4-pinksale.png";
+import pancakeswap from "../../assets/images/section4-pancakeswap.png";
+import trustwallet from "../../assets/images/section4-trustwallet.png";
+import coingecko from "../../assets/images/section4-coingecko.png";
+import dextool from "../../assets/images/section4-dextool.png";
+import walletconnect from "../../assets/images/section4-walletconnect.png";
 
 export default class SupportSlider extends Component {
   render() {
@@ -14,11 +16,11 @@ export default class SupportSlider extends Component {
       dots: false,
       arrows: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 6000,
-      autoplaySpeed: 6000,
+      speed: 4000,
+      autoplaySpeed: 4000,
       cssEase: "linear",
       responsive: [
         {
@@ -27,18 +29,18 @@ export default class SupportSlider extends Component {
             dots: false,
             arrows: false,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 6,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 6000,
-            autoplaySpeed: 6000,
+            speed: 4000,
+            autoplaySpeed: 4000,
             cssEase: "linear",
           },
         },
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
@@ -52,7 +54,7 @@ export default class SupportSlider extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
@@ -62,42 +64,58 @@ export default class SupportSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <a href="https://bscscan.com/" target="_blank" rel="noreferrer">
-              <SupporterCard src={bscscan} name="Bscscan" />
-            </a>
+            <SupporterCard src={pinksale} name="PinkSale" />
           </div>
           <div>
-            <a href="https://www.dexview.com/" target="_blank" rel="noreferrer">
-              <SupporterCard src={dexview} name="DexView" />
-            </a>
+            <SupporterCard src={pancakeswap} name="PancakeSwap" />
           </div>
           <div>
-            <a
-              href="https://coinmarketcap.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <SupporterCard src={coinmarketcap} name="Coinmarketcap" />
-            </a>
+            <SupporterCard src={trustwallet} name="Trust Wallet" />
           </div>
           <div>
-            <a href="https://bscscan.com/" target="_blank" rel="noreferrer">
-              <SupporterCard src={bscscan} name="Bscscan" />
-            </a>
+            <SupporterCard src={coingecko} name="CoinGecko" />
           </div>
           <div>
-            <a href="https://www.dexview.com/" target="_blank" rel="noreferrer">
-              <SupporterCard src={dexview} name="DexView" />
-            </a>
+            <SupporterCard src={dextool} name="DexTool" />
+          </div>
+          <div className="mt-2">
+            <SupporterCard src={walletconnect} name="WalletConnect" />
           </div>
           <div>
-            <a
-              href="https://coinmarketcap.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <SupporterCard src={coinmarketcap} name="Coinmarketcap" />
-            </a>
+            <SupporterCard src={pinksale} name="PinkSale" />
+          </div>
+          <div>
+            <SupporterCard src={pancakeswap} name="PancakeSwap" />
+          </div>
+          <div>
+            <SupporterCard src={trustwallet} name="Trust Wallet" />
+          </div>
+          <div>
+            <SupporterCard src={coingecko} name="CoinGecko" />
+          </div>
+          <div>
+            <SupporterCard src={dextool} name="DexTool" />
+          </div>
+          <div className="mt-2">
+            <SupporterCard src={walletconnect} name="WalletConnect" />
+          </div>
+          <div>
+            <SupporterCard src={pinksale} name="PinkSale" />
+          </div>
+          <div>
+            <SupporterCard src={pancakeswap} name="PancakeSwap" />
+          </div>
+          <div>
+            <SupporterCard src={trustwallet} name="Trust Wallet" />
+          </div>
+          <div>
+            <SupporterCard src={coingecko} name="CoinGecko" />
+          </div>
+          <div>
+            <SupporterCard src={dextool} name="DexTool" />
+          </div>
+          <div className="mt-2">
+            <SupporterCard src={walletconnect} name="WalletConnect" />
           </div>
         </Slider>
       </div>

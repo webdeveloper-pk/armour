@@ -2,8 +2,8 @@ import React from "react";
 // import AOS from "aos";
 import Hero from "../components/Hero";
 import NavbarHomepage from "../components/common/NavbarHomepage";
-import SectionOne from "../components/SectionOne";
-import SectionTwo from "../components/SectionTwo";
+import AboutUs from "../components/AboutUs";
+import Features from "../components/Features";
 import NftOfferings from "../components/NftOfferings";
 import StakeCoin from "../components/StakeCoin";
 import LowFee from "../components/LowFee";
@@ -28,8 +28,8 @@ const Homepage = () => {
           <NavbarHomepage />
           <Hero />
         </div>
-        <SectionOne />
-        <SectionTwo />
+        <AboutUs />
+        <Features />
         <NftOfferings />
         <StakeCoin />
         <LowFee />

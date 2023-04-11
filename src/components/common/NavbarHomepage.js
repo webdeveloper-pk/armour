@@ -20,7 +20,7 @@ const NavbarHomepage = () => {
 
   return (
     <div>
-      <header className="hidden lg:block w-full z-[999] text-white px-6 md:px-12 lg:px-12 homepage-container mx-auto">
+      <header className="hidden lg:block w-full z-[999] text-white px-6 md:px-12 lg:px-12 mx-auto">
         <div className="mx-auto lg:flex justify-between lg:items-start">
           <div>
             <div className="flex flex-row justify-between items-center w-full">
@@ -34,7 +34,7 @@ const NavbarHomepage = () => {
                       <img
                         src={logo}
                         alt="logo"
-                        className="w-[36px] lg:w-[30px] xl:w-[37px] h-auto"
+                        className="w-[36px] lg:w-[30px] xl:w-[40px] h-auto"
                       />
                     </div>
                     <span className="logo-title pr-1 text-white">Armour</span>
@@ -54,14 +54,14 @@ const NavbarHomepage = () => {
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/#">
+                      <a href="#aboutus">
                         <div className="btn btn-one hover:text-light-blue header-item2">
                           about us
                         </div>
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/#">
+                      <a href="#features">
                         <div className="btn btn-one hover:text-light-blue header-item3">
                           features
                         </div>
@@ -240,14 +240,14 @@ const NavbarHomepage = () => {
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/">
+                      <a href="#aboutus">
                         <div className="btn btn-one hover:text-light-blue header-item2">
                           about us
                         </div>
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/">
+                      <a href="#features">
                         <div className="btn btn-one hover:text-light-blue header-item3">
                           features
                         </div>

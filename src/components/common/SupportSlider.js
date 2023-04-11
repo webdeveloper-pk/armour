@@ -9,6 +9,9 @@ import trustwallet from "../../assets/images/section4-trustwallet.png";
 import coingecko from "../../assets/images/section4-coingecko.png";
 import dextool from "../../assets/images/section4-dextool.png";
 import walletconnect from "../../assets/images/section4-walletconnect.png";
+import bscscan from "../../assets/images/section4-bscscan.png";
+import dexview from "../../assets/images/section4-dexview.png";
+import coinmarketcap from "../../assets/images/section4-coinmarketcap.png";
 
 export default class SupportSlider extends Component {
   render() {
@@ -20,7 +23,7 @@ export default class SupportSlider extends Component {
       slidesToScroll: 1,
       autoplay: true,
       speed: 4000,
-      autoplaySpeed: 50,
+      autoplaySpeed: 100,
       cssEase: "linear",
       responsive: [
         {
@@ -33,7 +36,7 @@ export default class SupportSlider extends Component {
             slidesToScroll: 1,
             autoplay: true,
             speed: 4000,
-            autoplaySpeed: 50,
+            autoplaySpeed: 100,
             cssEase: "linear",
           },
         },
@@ -78,9 +81,29 @@ export default class SupportSlider extends Component {
           <div>
             <SupporterCard src={dextool} name="DexTool" />
           </div>
-          <div className="mt-2">
+          <div>
             <SupporterCard src={walletconnect} name="WalletConnect" />
           </div>
+          <div>
+            <a href="https://bscscan.com/" target="_blank" rel="noreferrer">
+              <SupporterCard src={bscscan} name="Bscscan" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.dexview.com/" target="_blank" rel="noreferrer">
+              <SupporterCard src={dexview} name="DexView" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://coinmarketcap.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SupporterCard src={coinmarketcap} name="Coinmarketcap" />
+            </a>
+          </div>
+          {/* repeat */}
           <div>
             <SupporterCard src={pinksale} name="PinkSale" />
           </div>
@@ -96,26 +119,27 @@ export default class SupportSlider extends Component {
           <div>
             <SupporterCard src={dextool} name="DexTool" />
           </div>
-          <div className="mt-2">
+          <div>
             <SupporterCard src={walletconnect} name="WalletConnect" />
           </div>
           <div>
-            <SupporterCard src={pinksale} name="PinkSale" />
+            <a href="https://bscscan.com/" target="_blank" rel="noreferrer">
+              <SupporterCard src={bscscan} name="Bscscan" />
+            </a>
           </div>
           <div>
-            <SupporterCard src={pancakeswap} name="PancakeSwap" />
+            <a href="https://www.dexview.com/" target="_blank" rel="noreferrer">
+              <SupporterCard src={dexview} name="DexView" />
+            </a>
           </div>
           <div>
-            <SupporterCard src={trustwallet} name="Trust Wallet" />
-          </div>
-          <div>
-            <SupporterCard src={coingecko} name="CoinGecko" />
-          </div>
-          <div>
-            <SupporterCard src={dextool} name="DexTool" />
-          </div>
-          <div className="mt-2">
-            <SupporterCard src={walletconnect} name="WalletConnect" />
+            <a
+              href="https://coinmarketcap.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SupporterCard src={coinmarketcap} name="Coinmarketcap" />
+            </a>
           </div>
         </Slider>
       </div>

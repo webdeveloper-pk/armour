@@ -68,7 +68,7 @@ const Tokenomics = () => {
                   <p className="name text-xs md:text-sm  mb-1">
                     Official Contract Address
                   </p>
-                  <p className="text-sm md:text-base">coming soon</p>
+                  <p className="text-sm md:text-base">Coming soon</p>
                 </div>
                 <div className="text-white">
                   <p className="text-xs md:text-sm  mb-1">Network:</p>

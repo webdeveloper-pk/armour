@@ -343,10 +343,10 @@ const FooterHomepage = () => {
                   </defs>
                 </svg>
                 <a
-                  href="mailto:Contact@armourwallet.app"
+                  href="mailto:team@armourwallet.app"
                   className=" flex items-center gap-x-3 text-white  text-[13px]"
                 >
-                  Contact@armourwallet.app
+                  team@armourwallet.app
                 </a>
               </li>
             </nav>

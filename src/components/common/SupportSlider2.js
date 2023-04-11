@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import SupporterCard from "./SupporterCard";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import bscscan from "../../assets/images/section4-bscscan.png";
@@ -17,8 +16,8 @@ export default class SupportSlider2 extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 6000,
-      autoplaySpeed: 50,
+      speed: 5000,
+      autoplaySpeed: 1000,
       cssEase: "linear",
       responsive: [
         {
@@ -30,8 +29,8 @@ export default class SupportSlider2 extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 6000,
-            autoplaySpeed: 50,
+            speed: 5000,
+            autoplaySpeed: 1000,
             cssEase: "linear",
           },
         },

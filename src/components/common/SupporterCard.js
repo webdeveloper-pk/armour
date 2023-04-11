@@ -4,9 +4,9 @@ const SupporterCard = ({ src, name }) => {
   return (
     <div className="flex flex-row justify-center items-center gap-x-4">
       <div>
-        <img src={src} alt="logo" className="w-[38px] md:w-[40px] h-auto" />
+        <img src={src} alt="logo" className="w-[30px] md:w-[36px] h-[36px]" />
       </div>
-      <p className="text-white text-[14px] md:text-[16px]">{name}</p>
+      <p className="text-white text-[14px] md:text-[15px]">{name}</p>
     </div>
   );
 };

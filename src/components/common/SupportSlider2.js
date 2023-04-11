@@ -18,7 +18,7 @@ export default class SupportSlider2 extends Component {
       slidesToScroll: 1,
       autoplay: true,
       speed: 6000,
-      autoplaySpeed: 6000,
+      autoplaySpeed: 50,
       cssEase: "linear",
       responsive: [
         {
@@ -31,7 +31,7 @@ export default class SupportSlider2 extends Component {
             slidesToScroll: 1,
             autoplay: true,
             speed: 6000,
-            autoplaySpeed: 6000,
+            autoplaySpeed: 50,
             cssEase: "linear",
           },
         },

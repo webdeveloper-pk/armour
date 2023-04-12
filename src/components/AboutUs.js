@@ -8187,13 +8187,7 @@ const AboutUs = () => {
                 // stopDuartion={1000}
                 duration={1000}
                 stopDuration={1200}
-                data={[
-                  "Game-Changing?",
-                  "Paradigm-shifting?",
-                  "Revolutionary?",
-                  "Pioneering?",
-                  "Transformative?",
-                ]}
+                data={["Game-Changing?", "Disruptive?", "Revolutionary?"]}
               />
             </span>
           </div>

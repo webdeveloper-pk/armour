@@ -1,4 +1,5 @@
 import React from "react";
+import Textra from "react-textra";
 import line from "../assets/images/section3-line-image.png";
 import dot from "../assets/images/section3-dot.png";
 
@@ -15,7 +16,16 @@ const Roadmap = () => {
             //  data-aos="zoom-in-down"
           >
             <span className="sections-title-color text-[26px]">Roadmap </span>&
-            Future Development
+            <span className="ml-2">
+              <Textra
+                effect="topDown"
+                // duration={700}
+                // stopDuartion={1000}
+                duration={1000}
+                stopDuration={1200}
+                data={["Future Development", "Future Buildout"]}
+              />
+            </span>
           </div>
         </div>
         <div className="uppercase relative">

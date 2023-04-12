@@ -8151,7 +8151,7 @@ const Features = () => {
   };
 
   return (
-    <section className="w-full relative" id="features">
+    <section className="w-full relative overflow-body" id="features">
       <div
         className="section2-bg-postion"
         id="lottie1"

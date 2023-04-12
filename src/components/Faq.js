@@ -4177,7 +4177,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="w-full relative">
+    <section className="w-full relative overflow-body">
       <div
         className="faq-bg-postion"
         id="lottie"

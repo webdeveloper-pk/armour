@@ -4173,7 +4173,7 @@ const LowFee = () => {
   };
 
   return (
-    <section className="w-full relative mt-0 lg:mt-16">
+    <section className="w-full relative mt-0 lg:mt-16 overflow-body">
       <div
         className="fee-bg-postion"
         id="lottie"

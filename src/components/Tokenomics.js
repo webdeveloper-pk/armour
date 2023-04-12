@@ -3,7 +3,7 @@ import progressbar from "../../src/assets/images/section5-progressbar.png";
 
 const Tokenomics = () => {
   return (
-    <section className="w-full xl:mt-8">
+    <section className="w-full xl:mt-8 overflow-body">
       <div
         className="px-6 md:px-12 lg:px-16 pt-12 xl:pt-16 homepage-container mx-auto"
         id="tokenomics"

@@ -4173,7 +4173,7 @@ const StakeCoin = () => {
   };
 
   return (
-    <section className="w-full relative">
+    <section className="w-full relative overflow-body">
       <div
         className="stake-bg-postion"
         id="lottie"

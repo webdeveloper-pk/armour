@@ -289,7 +289,15 @@ header {
   background-repeat: no-repeat;
 }
 
-/* section 01 */
+/* about us */
+
+.changebox {
+  margin: 0 5px;
+  color: #ff5722;
+  overflow: hidden;
+  transition: 0.5s;
+  white-space: nowrap;
+}
 
 .section-title-count {
   border: 1px solid #d9d9d9;
@@ -399,7 +407,7 @@ header {
   font-weight: 200;
 }
 
-/* section 02 */
+/* features */
 
 .section2-card {
   border-radius: 16px;

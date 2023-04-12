@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
+import Textra from "react-textra";
 import Section1Card from "./common/Section1Card";
 import technology from "../../src/assets/images/section1-technology.png";
 import approach from "../../src/assets/images/section1-approach.png";
@@ -8155,7 +8156,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section className="w-full relative" id="aboutus">
+    <section className="w-full relative overflow-body" id="aboutus">
       <div
         className="section1-bg-postion"
         id="lottie1"
@@ -8178,7 +8179,23 @@ const AboutUs = () => {
             <span className="sections-title-color px-1.5 text-[26px] font-bold">
               Armour Wallet
             </span>
-            Will be Game-Changing?
+            Will be
+            <span className="ml-2">
+              <Textra
+                effect="topDown"
+                // duration={700}
+                // stopDuartion={1000}
+                duration={1000}
+                stopDuration={1200}
+                data={[
+                  "Game-Changing?",
+                  "Paradigm-shifting?",
+                  "Revolutionary?",
+                  "Pioneering?",
+                  "Transformative?",
+                ]}
+              />
+            </span>
           </div>
         </div>
         <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8 px-2 md:px-2 xl:px-28">

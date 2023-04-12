@@ -6,7 +6,7 @@ const SupporterCard = ({ src, name }) => {
       <div>
         <img src={src} alt="logo" className="w-[30px] md:w-[36px] h-[36px]" />
       </div>
-      <p className="text-white text-[14px] md:text-[15px]">{name}</p>
+      <p className="text-white text-[14px] md:text-[16px]">{name}</p>
     </div>
   );
 };

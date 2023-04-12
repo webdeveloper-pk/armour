@@ -3987,7 +3987,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="w-full relative heroWrapper">
+    <section className="w-full relative heroWrapper overflow-body">
       <div
         className="absolute hero-bg-postion"
         id="lottie"

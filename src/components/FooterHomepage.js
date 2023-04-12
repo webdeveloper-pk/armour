@@ -5,7 +5,7 @@ import FooterLinkArrow from "./common/FooterLinkArrow";
 const FooterHomepage = () => {
   return (
     <>
-      <footer className="px-6 md:px-12 lg:px-16 pt-8 xl:pt-8 pb-6 xl:pb-6 homepage-container mx-auto footer-black-bg">
+      <footer className="px-6 md:px-12 lg:px-16 pt-8 xl:pt-8 pb-6 xl:pb-6 homepage-container mx-auto footer-black-bg overflow-body">
         <div className="w-[100%] xl:w-[95%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:text-left text-center">
           <div className="w-[100%] pt-0 lg:pt-12">
             <a

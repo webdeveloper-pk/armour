@@ -5,7 +5,7 @@ import dot from "../assets/images/section3-dot.png";
 const Roadmap = () => {
   return (
     <section
-      className="w-full pt-12 xl:pt-28 pb-12 xl:pb-40"
+      className="w-full pt-12 xl:pt-28 pb-12 xl:pb-40 overflow-body"
       id="roadmap-section"
     >
       <div className="px-6 md:px-16 homepage-container mx-auto">

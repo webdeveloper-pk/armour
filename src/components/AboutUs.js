@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
-import Textra from "react-textra";
 import Section1Card from "./common/Section1Card";
 import technology from "../../src/assets/images/section1-technology.png";
 import approach from "../../src/assets/images/section1-approach.png";
@@ -8170,26 +8169,20 @@ const AboutUs = () => {
         style={animationContainerStyle}
       ></div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
-        <div className="flex flex-row justify-center items-center  text-center md:text-left text-white uppercase">
-          <div
-            className="text-[26px] font-bold"
-            // data-aos="zoom-in-down"
-          >
+        <div className="flex flex-row justify-center md:justify-start lg:justify-start xl:justify-center items-center  text-center md:text-left text-white uppercase mb-16 md:mb-0  overflow-body">
+          <div className="text-[26px] font-bold flex flex-col md:flex-row md:ml-12 lg:ml-40 xl:-ml-52">
             Why
             <span className="sections-title-color px-1.5 text-[26px] font-bold">
               Armour Wallet
             </span>
             Will be
-            <span className="ml-2">
-              <Textra
-                effect="topDown"
-                // duration={700}
-                // stopDuartion={1000}
-                duration={1000}
-                stopDuration={1200}
-                data={["Game-Changing?", "Disruptive?", "Revolutionary?"]}
-              />
-            </span>
+            <div className="md:ml-2 -mt-1 bodyClass">
+              <div class="dropping-texts2">
+                <div>Game-Changing?</div>
+                <div>Disruptive?</div>
+                <div>Revolutionary?</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8 px-2 md:px-2 xl:px-28">

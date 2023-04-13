@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
-import Textra from "react-textra";
 import Section2Card from "./common/Section2Card";
 import community from "../../src/assets/images/section2-community.png";
 import cases from "../../src/assets/images/section2-cases.png";
@@ -8166,26 +8165,19 @@ const Features = () => {
         style={animationContainerStyle}
       ></div>
       <div className="px-6 md:px-12 lg:px-16 py-12 xl:py-16 homepage-container mx-auto">
-        <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
-          <div
-            className="text-[26px] font-bold"
-            //  data-aos="zoom-in-down"
-          >
+        <div className="flex flex-row justify-center md:justify-start lg:justify-start xl:justify-center items-center  text-center md:text-left text-white uppercase mb-16 md:mb-0 overflow-body">
+          <div className="text-[26px] font-bold flex flex-col md:flex-row md:ml-48 lg:ml-72 xl:-ml-32">
             That’s why
             <span className="sections-title-color pl-2 text-[26px] font-bold">
               we
-              <span className="ml-2">
-                <Textra
-                  effect="topDown"
-                  // duration={700}
-                  // stopDuartion={1000}
-                  className="sections-title-color"
-                  duration={1000}
-                  stopDuration={1200}
-                  data={["are best", "are unique"]}
-                />
-              </span>
             </span>
+            <div className="md:ml-2 -mt-1 bodyClass">
+              <div class="dropping-texts">
+                <div className="sections-title-color">are best</div>
+                <div className="sections-title-color">are unique</div>
+                <div className="sections-title-color">are best</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 px-2 md:px-12 lg:px-2 xl:px-20">

@@ -146,8 +146,7 @@ const NavbarHomepage = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <button
                     onClick={() => setNavbar(!navbar)}
-                    className="navbar-btn1 text-white text-sm md:text-xs xl:text-[15px] font-semibold py-3 lg:py-3 xl:py-4 px-7 lg:px-5 xl:px-7 lg:mt-1 uppercase headerRightBtn"
-                    // data-aos="fade-left"
+                    className="navbar-btn1 text-white text-sm md:text-xs xl:text-[15px] font-semibold py-3 lg:py-3 xl:py-4 px-7 lg:px-5 xl:px-7 lg:mt-1 uppercase"
                   >
                     <span className="navbar-btn2">Launching Soon</span>
                   </button>

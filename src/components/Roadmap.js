@@ -1,5 +1,4 @@
 import React from "react";
-import Textra from "react-textra";
 import line from "../assets/images/section3-line-image.png";
 import dot from "../assets/images/section3-dot.png";
 
@@ -10,22 +9,19 @@ const Roadmap = () => {
       id="roadmap-section"
     >
       <div className="px-6 md:px-16 homepage-container mx-auto">
-        <div className="flex flex-row justify-center items-center text-center md:text-left text-white uppercase">
-          <div
-            className="text-[26px] font-bold"
-            //  data-aos="zoom-in-down"
-          >
-            <span className="sections-title-color text-[26px]">Roadmap </span>&
-            <span className="ml-2">
-              <Textra
-                effect="topDown"
-                // duration={700}
-                // stopDuartion={1000}
-                duration={1000}
-                stopDuration={1200}
-                data={["Future Development", "Future Buildout"]}
-              />
+        <div className="flex flex-row justify-center md:justify-start lg:justify-start xl:justify-center items-center  text-center md:text-left text-white uppercase mb-16 md:mb-0 overflow-body">
+          <div className="text-[26px] font-bold flex flex-col md:flex-row md:ml-24 lg:ml-60 xl:-ml-60">
+            <span className="sections-title-color text-[26px] md:pr-2">
+              Roadmap{" "}
             </span>
+            &
+            <div className="md:ml-3 -mt-1 bodyClass">
+              <div class="dropping-texts">
+                <div>Future Development</div>
+                <div>Future Buildout</div>
+                <div>Future Development</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="uppercase relative">

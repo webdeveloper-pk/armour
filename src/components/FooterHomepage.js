@@ -270,13 +270,15 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/#"
-                  className="flex items-center gap-x-3 text-white   text-[13px]"
+                  href="https://armourwalletappwhitepaper.gitbook.io/.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-x-3 text-white text-[13px]"
                 >
                   <span>
                     <FooterLinkArrow />
                   </span>
-                  white papers
+                  whitepapers
                 </a>
               </li>
             </nav>

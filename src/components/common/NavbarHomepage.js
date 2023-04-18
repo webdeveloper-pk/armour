@@ -82,7 +82,11 @@ const NavbarHomepage = () => {
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/#">
+                      <a
+                        href="https://armourwalletappwhitepaper.gitbook.io/.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <div className="btn btn-one hover:text-light-blue header-item6">
                           whitepapers
                         </div>
@@ -267,7 +271,11 @@ const NavbarHomepage = () => {
                       </a>
                     </li>
                     <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                      <a href="/">
+                      <a
+                        href="https://armourwalletappwhitepaper.gitbook.io/.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <div className="btn btn-one hover:text-light-blue header-item6">
                           whitepapers
                         </div>

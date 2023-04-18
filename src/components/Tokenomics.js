@@ -62,7 +62,7 @@ const Tokenomics = () => {
               <div className=" flex justify-between pt-6">
                 <div className="text-white">
                   <p className="text-xs md:text-sm mb-1">Symbol:</p>
-                  <p className="text-sm md:text-base mb-3">$AWT</p>
+                  <p className="text-sm md:text-base mb-3">$ARMOUR</p>
                   <p className="name text-xs md:text-sm mb-1">Total Supply:</p>
                   <p className="text-sm md:text-base mb-3">1,000,000,000</p>
                   <p className="name text-xs md:text-sm  mb-1">

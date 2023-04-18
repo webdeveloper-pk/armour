@@ -226,7 +226,7 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="#aboutus"
                   className="flex items-center gap-x-3 text-white   text-[13px]"
                 >
                   <span>
@@ -237,7 +237,7 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="#features"
                   className="flex items-center gap-x-3 text-white   text-[13px]"
                 >
                   <span>
